@@ -2,7 +2,7 @@
 
 Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Recorte da v0.85.** Manual do Fundamento na **v7.8**.
+**Recorte da v0.86.** Manual do Fundamento na **v7.8**.
 
 > ## Este repositório é ARTEFATO, e não fonte
 >
@@ -21,10 +21,10 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 |---|---|
 | `regra/` | as **dezessete peças** de mecânica, na ordem numérica |
 | `desenho/` | o que **ainda não virou peça**: as Trilhas, os degraus de Caminho, as Manhas e a lista de gatilhos |
-
-> **Comece pela peça 17.** Ela é o índice das **89 entradas** que um personagem pode ganhar — 56 entregas de Trilha, 20 degraus de Caminho e as 13 Manhas — e diz, de cada uma, **como ela se chama e em qual arquivo de `desenho/` o texto dela mora.** *Ela não repete preço nem texto de mesa: para isso, ela te manda para o desenho.* **É o mapa mais curto que existe deste material.**
 | `manual/` | o **Fundamento** — o subsistema de técnica e feitiço, fechado e validado. `.docx` na v7.8 |
 | `ficha/` | a ficha em branco e uma ficha de exemplo preenchida, nível 2 |
+
+> **Comece pela peça 17.** Ela é o índice das **89 entradas** que um personagem pode ganhar — 56 entregas de Trilha, 20 degraus de Caminho e as 13 Manhas — e diz, de cada uma, **como ela se chama e em qual arquivo de `desenho/` o texto dela mora.** *Ela não repete preço nem texto de mesa: para isso, ela te manda para o desenho.* **É o mapa mais curto que existe deste material.**
 
 ## ⚠ A primeira coisa a entender: as peças NÃO são texto de mesa
 
@@ -48,7 +48,7 @@ Nenhuma delas é opinião — todas foram medidas.
 
 **5 — O `.pdf` do manual está na v7.4 e o `.docx` na v7.8.** *Ele é exportado à mão e por isso vive atrasado.* **Use o `.docx`.**
 
-**6 — A ação `Mirar` é entregue seis vezes e não existe.** As três rotas do `Batedor` ganham ela no nível 11 e estendem no 27, e **nenhum arquivo diz o que ela faz nem que slot ela gasta.** *Ela não está entre as doze Ações Padrão da peça 3 §3.1.* **Não publique `Mirar` como regra — não há regra.** *Achado pela peça 17 na v0.85.*
+**6 — O `Batedor` estoura o orçamento em ~20%, e é de propósito.** A ação `Mirar` foi escrita na v0.86 — *Ação Bônus, vantagem no próximo tiro, e só se você não se deslocou nem vai se deslocar* — e ela custa `4,25` fatias num degrau de `0,80`. **As três rotas vão para `5,95` a `6,09` contra um teto de `5,00`, e as três passam a dominar a `Estocada` por `1,20×`.** *Decisão do Mizuki, mesmo molde do `Punho` e da `Brasa`, que já estão publicados estourados.* **Publique como está** — o argumento e os números estão em `desenho/DESENHO-trilhas.md`, na seção `A ação Mirar`.
 
 ## O que existe e o que NÃO existe
 
