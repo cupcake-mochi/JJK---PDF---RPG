@@ -1,0 +1,9 @@
+# Este repositorio e ARTEFATO, nao fonte. Nada aqui e editado a mao.
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+.~lock.*#
+__pycache__/
+*.pyc

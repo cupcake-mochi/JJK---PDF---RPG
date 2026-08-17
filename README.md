@@ -1,0 +1,96 @@
+# RPG da Guilda — pacote de entrega
+
+Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
+
+**Recorte da v0.82.** Manual do Fundamento na **v7.8**.
+
+> ## Este repositório é ARTEFATO, e não fonte
+>
+> **Nada aqui é editado à mão.** Tudo é cópia, recortada do repositório de trabalho quando uma versão fecha.
+>
+> **A fonte é [cupcake-mochi/JJK---Project](https://github.com/cupcake-mochi/JJK---Project).** Correção descoberta aqui se aplica lá, e volta na próxima leva.
+>
+> **Ele existe por um motivo medido:** o repositório de trabalho tem `2,2 MB` de texto, e `628 KB` disso é o CHANGELOG — o registro de *por que* cada número é aquele. Para escrever texto de mesa isso é ruído, e ruído que gasta o contexto de quem está lendo. **Aqui são `816 KB`, e nenhum deles é histórico de decisão.**
+
+---
+
+
+## O que tem aqui
+
+| pasta | o que é |
+|---|---|
+| `regra/` | as **dezesseis peças** de mecânica, na ordem numérica |
+| `desenho/` | o que **ainda não virou peça**: as Trilhas, os degraus de Caminho, as Manhas e a lista de gatilhos |
+| `manual/` | o **Fundamento** — o subsistema de técnica e feitiço, fechado e validado. `.docx` na v7.8 |
+| `ficha/` | a ficha em branco e uma ficha de exemplo preenchida, nível 2 |
+
+## ⚠ A primeira coisa a entender: as peças NÃO são texto de mesa
+
+**Elas são argumento de design.** Cada uma explica por que o número é aquele, o que foi testado, o que morreu no caminho e o que ficou pendurado. Uma peça típica tem mais parágrafo de justificativa do que de regra.
+
+**Para o PDF, o trabalho é transpor, não copiar.** A regra está lá dentro, quase sempre num bloco de citação (`>`) ou numa tabela. O resto é registro.
+
+**E texto riscado, bloco de citação começando com *"Corrigido na v0.NN"* e nota em itálico são história.** Eles registram o que a regra **era**. Publicar um deles como regra viva é o erro mais fácil de cometer aqui.
+
+## ⚠⚠ Cinco coisas que estão ERRADAS nos arquivos, e você vai encontrar
+
+Nenhuma delas é opinião — todas foram medidas.
+
+**1 — A peça 6 lista uma Trilha que não existe mais.** O `Repertório` foi abandonado na v0.81 e substituído pelo **`Explosivo`**. A tabela do §2 daquela peça ainda traz o `Repertório`, e a palavra `Explosivo` não aparece nela nenhuma vez. *A entrega certa está em `desenho/DESENHO-trilhas.md`.* **O `Repertório` também sobreviveu no gerador da ficha e em dois validadores.**
+
+**2 — A peça 6 fecha com o calendário velho de Caminho.** O §9 dela diz que o degrau de Caminho é `7 · 15 · 23 · 29`. **Ele mudou na v0.70 e é `2 · 7 · 15 · 30`.** *O calendário de Trilha, `2 · 11 · 19 · 27`, está certo nos dois lugares.*
+
+**3 — A linha de base do físico está publicada num número que a decisão desmente.** A peça 6 §3 publica `106` de dano por rodada no nível 30 para o combatente físico, somando feitiço de Toque **mais** golpe simples. *Mas um feitiço de Toque gasta a Ação Padrão conjurando, e o ataque extra exige a Ação de Atacar — os dois não cabem no mesmo turno, e o físico faz `94`.* **O aviso completo, com a conta, abre o §3 da peça 5.**
+
+> **Decisão do Mizuki: NÃO consertar.** *"Prefiro finalizar o projeto, testar e trazer o retorno."* **Publique o que está escrito e não recalcule nada em cima disso.**
+
+**4 — O estado de 0 de vida vai mudar de nome.** Ele se chama `Caído` na peça 1 §5.5 e **vai passar a se chamar `Inconsciente`**, porque `Caído` virou a condição de quem foi derrubado. *A troca não foi aplicada: a peça 1, a peça 13 e a peça 15 ainda dizem `Caído` para o estado de 0 de vida.*
+
+**5 — O `.pdf` do manual está na v7.4 e o `.docx` na v7.8.** *Ele é exportado à mão e por isso vive atrasado.* **Use o `.docx`.**
+
+## O que existe e o que NÃO existe
+
+**Uma ficha de nível 2 fecha inteira**, por seis das nove rotas de Origem, e roda uma missão do começo ao fim.
+
+| existe | onde |
+|---|---|
+| atributos, acerto, defesa, vida, energia, iniciativa | `regra/01` e `regra/02` |
+| o turno e as Restrições | `regra/03` |
+| perícias, ofícios, testes | `regra/04` e `regra/07` |
+| os cinco Caminhos e as quinze Trilhas **por nome** | `regra/06` |
+| **as entregas de 12 das 15 Trilhas** | `desenho/DESENHO-trilhas.md` |
+| **os 20 degraus dos cinco Caminhos** | `desenho/DESENHO-caminhos.md` |
+| **as 13 Manhas** — o nível 2 da Vanguarda | `desenho/DESENHO-manhas.md` |
+| **a lista de ações** — Atacar, Correr, Esquivar, Ajudar, Provocar… | **no FIM do** `desenho/DESENHO-caminhos.md` |
+| criação de personagem, em oito passos, com ficha de exemplo | `regra/08` |
+| Origens, Legados, descanso, XP, aptidões, equipamento, invocações, ferramenta | `regra/09` a `regra/16` |
+| técnica, feitiço, Melhoria, Restrição, Expansão de Domínio | `manual/` |
+| vida e dano de chefe e capanga por nível | `manual/`, tabela de inimigo |
+
+| NÃO existe | tamanho do buraco |
+|---|---|
+| **As três Trilhas do Evocador** — `Servo`, `Matilha` e `Coro` | cortadas de propósito: ninguém vai jogar de Evocador no primeiro teste. *O `Servo` tem um rascunho pronto no `RASCUNHO-trilhas.md` §6.10, que não veio para cá* |
+| **Régua de condição** | não existe conversão de condição em preço. O `Abalo` das Manhas aplica `Caído` com o efeito escrito por extenso |
+| **Tabela de progressão consolidada** | o que se ganha em cada nível está espalhado por cinco documentos |
+| **Playtest** | zero sessões. **Todo número deste sistema é previsão** |
+| **Nome do sistema** | aberto desde a v0.1 |
+
+## As réguas que valem, se você precisar conferir alguma conta
+
+*Tudo medido no nível 30, que é onde a fatia foi definida.*
+
+- **A fatia é `5,08` de dano por rodada.** Uma Trilha inteira leva `5` fatias; um Caminho leva `3`.
+- **`+1` no seu acerto vale `10,80` por rodada** — `10%` da Rotina. É por isso que quase nada que mexe no d20 cabe num degrau.
+- **Dano evitado converte `1` pra `1`.** PV temporário, resistência e redução, todos. *A conversão de PONTO do manual, `3` por ponto, é a moeda de montar feitiço e não serve para preçar entrega de Caminho ou Trilha.*
+- **Rerrolar e dar vantagem valem os mesmos `+25` pontos percentuais.**
+- **A Rotina é `floor(3,5 × Classe)` dados**, e ela é do manual.
+- **Um Classe 0 causa `27` no nível 30** — `2d8` a `6d8` por faixa, tabela do manual. *No nível 30 um Classe 0 e um Classe 2 num alvo causam os dois `27`.*
+- **O vão `físico − conjurador` é `9 · 10 · 11 · 12`**, e ele é exatamente um golpe simples. *Ver o item 3 acima antes de usar.*
+
+## O que NÃO tem régua, e por isso não se inventa preço
+
+**Gastar PE**, **condição**, e **"uma aptidão a mais"**. *A última não pode ter régua: ela vale a Trilha inteira para quem nunca escolhe Refino e um sétimo para quem sempre escolhe — foi ela que matou o `Repertório`.*
+
+## Licença e escopo
+
+Material de fã, sem fins comerciais, não afiliado à Shueisha, à MAPPA nem a Gege Akutami. Jujutsu Kaisen e seus personagens pertencem aos detentores originais.
