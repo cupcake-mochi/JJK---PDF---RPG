@@ -1,8 +1,8 @@
-# RPG da Guilda — pacote de entrega
+# Projeto - M — pacote de entrega
 
 Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Recorte da v0.92.** Manual do Fundamento na **v7.8**.
+**Recorte da v0.94.** Manual do Fundamento na **v7.8**.
 
 > ## Este repositório é ARTEFATO, e não fonte
 >
@@ -40,7 +40,7 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 
 **1 — A linha do físico está certa, e o aviso que existia aqui morreu na v0.82.** A peça 6 §3 publica `106` de dano por rodada no nível 30 para o combatente físico, somando feitiço de Toque **mais** golpe simples. *Uma versão inteira isso ficou marcado como dívida, porque um feitiço de Toque gasta a Ação Padrão conjurando.* **O golpe vem do ataque extra do nível 7, que é um golpe SOLTO por rodada e não exige a Ação de Atacar.** Está escrito na peça 6 §3.1, com validador em cima. *Publique o `106`; ele é o número certo.*
 
-**2 — O `.pdf` do manual está na v7.4 e o `.docx` na v7.8.** *Ele é exportado à mão e por isso vive atrasado.* **Use o `.docx`.**
+~~**2 — O `.pdf` do manual está na v7.4.**~~ **Resolvido na v0.93: os dois estão na v7.8.** *O `.pdf` deixou de ser exportado a mão.* **Pode usar qualquer um dos dois.**
 
 **3 — O `Batedor` estoura o orçamento em ~20%, e é de propósito.** A ação `Mirar` foi escrita na v0.86 — *Ação Bônus, vantagem no próximo tiro, e só se você não se deslocou nem vai se deslocar* — e ela custa `4,25` fatias num degrau de `0,80`. **As três rotas vão para `5,95` a `6,09` contra um teto de `5,00`, e as três passam a dominar a `Estocada` por `1,20×`.** *Decisão do Mizuki, mesmo molde do `Punho` e da `Brasa`, que já estão publicados estourados.* **Publique como está** — o argumento e os números estão em `desenho/DESENHO-trilhas.md`, na seção `A ação Mirar`.
 
@@ -68,6 +68,8 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 | **as 13 Manhas** — o nível 2 da Vanguarda | `desenho/DESENHO-manhas.md` |
 | **as doze Ações Padrão** — Atacar, Conjurar, Correr, Esquivar, Ajudar… | `regra/03`, seção 3.1 |
 | **as duas Ações Bônus** — `Provocar` e `Ler o Ambiente` | **no FIM do** `desenho/DESENHO-caminhos.md` |
+| **o alcance de cada arma de projétil e arremesso** — as 19, em metros | `regra/14`, seção 5.2.2 |
+| **Cobertura** — Parcial, Boa e Total | `regra/01`, seção 8.2 |
 | criação de personagem, em oito passos, com ficha de exemplo | `regra/08` |
 | Origens, Legados, descanso, XP, aptidões, equipamento, invocações, ferramenta | `regra/09` a `regra/16` |
 | técnica, feitiço, Melhoria, Restrição, Expansão de Domínio | `manual/` |
@@ -79,7 +81,7 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 | **Régua de condição** | não existe conversão de condição em preço. O `Abalo` das Manhas aplica `Derrubado` — que é `Condição Menor` do manual — com o efeito escrito por extenso |
 | **Tabela de progressão consolidada** | o que se ganha em cada nível está espalhado por cinco documentos |
 | **Playtest** | zero sessões. **Todo número deste sistema é previsão** |
-| **Nome do sistema** | aberto desde a v0.1 |
+| ~~Nome do sistema~~ | **`Projeto - M`, batizado na v0.94** |
 
 ## As réguas que valem, se você precisar conferir alguma conta
 
@@ -92,6 +94,14 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 - **A Rotina é `floor(3,5 × Classe)` dados**, e ela é do manual.
 - **Um Classe 0 causa `27` no nível 30** — `2d8` a `6d8` por faixa, tabela do manual. *No nível 30 um Classe 0 e um Classe 2 num alvo causam os dois `27`.*
 - **O vão `físico − conjurador` é `9 · 10 · 11 · 12`**, e ele é exatamente um golpe simples. *Ver o item 3 acima antes de usar.*
+
+## ⚠ Duas regras vieram do d20, de propósito, e isso está declarado
+
+**O alcance das armas e a Cobertura foram importados e convertidos**, em vez de derivados aqui. *`5 pés = 1,5 m`, a mesma conversão que põe o deslocamento em `9 m`.*
+
+**O motivo é honesto: nenhuma das duas tem preço neste sistema.** *O `Longo Alcance` custa `1` ponto por existir e não por quanto, e cobertura não tem conversão em fatia.* **Então o número não sai de conta nenhuma daqui — ele só precisa ser plausível, consistente e igual em sete mesas.**
+
+**Ao escrever o PDF, pode publicar os dois como regra normal.** *A origem está registrada na peça para quem for reler; não é ressalva de mesa.*
 
 ## O que NÃO tem régua, e por isso não se inventa preço
 
