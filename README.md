@@ -2,7 +2,7 @@
 
 Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Recorte da v0.87.** Manual do Fundamento na **v7.8**.
+**Recorte da v0.88.** Manual do Fundamento na **v7.8**.
 
 > ## Este repositório é ARTEFATO, e não fonte
 >
@@ -34,21 +34,23 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 
 **E texto riscado, bloco de citação começando com *"Corrigido na v0.NN"* e nota em itálico são história.** Eles registram o que a regra **era**. Publicar um deles como regra viva é o erro mais fácil de cometer aqui.
 
-## ⚠⚠ Seis coisas que estão ERRADAS nos arquivos, e você vai encontrar
+## ⚠⚠ Três coisas que estão ERRADAS nos arquivos, e você vai encontrar
 
-Nenhuma delas é opinião — todas foram medidas.
+Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; três fecharam na v0.88.*
 
-**1 — A peça 6 lista uma Trilha que não existe mais.** O `Repertório` foi abandonado na v0.81 e substituído pelo **`Explosivo`**. A tabela do §2 daquela peça ainda traz o `Repertório`, e a palavra `Explosivo` não aparece nela nenhuma vez. *A entrega certa está em `desenho/DESENHO-trilhas.md`.* **O `Repertório` também sobreviveu no gerador da ficha e em dois validadores.**
+**1 — A linha do físico está certa, e o aviso que existia aqui morreu na v0.82.** A peça 6 §3 publica `106` de dano por rodada no nível 30 para o combatente físico, somando feitiço de Toque **mais** golpe simples. *Uma versão inteira isso ficou marcado como dívida, porque um feitiço de Toque gasta a Ação Padrão conjurando.* **O golpe vem do ataque extra do nível 7, que é um golpe SOLTO por rodada e não exige a Ação de Atacar.** Está escrito na peça 6 §3.1, com validador em cima. *Publique o `106`; ele é o número certo.*
 
-**2 — A peça 6 fecha com o calendário velho de Caminho.** O §9 dela diz que o degrau de Caminho é `7 · 15 · 23 · 29`. **Ele mudou na v0.70 e é `2 · 7 · 15 · 30`.** *O calendário de Trilha, `2 · 11 · 19 · 27`, está certo nos dois lugares.*
+**2 — O `.pdf` do manual está na v7.4 e o `.docx` na v7.8.** *Ele é exportado à mão e por isso vive atrasado.* **Use o `.docx`.**
 
-**3 — A linha do físico está certa, e o aviso que existia aqui morreu na v0.82.** A peça 6 §3 publica `106` de dano por rodada no nível 30 para o combatente físico, somando feitiço de Toque **mais** golpe simples. *Uma versão inteira isso ficou marcado como dívida, porque um feitiço de Toque gasta a Ação Padrão conjurando.* **O golpe vem do ataque extra do nível 7, que é um golpe SOLTO por rodada e não exige a Ação de Atacar.** Está escrito na peça 6 §3.1, com validador em cima. *Publique o `106`; ele é o número certo.*
+**3 — O `Batedor` estoura o orçamento em ~20%, e é de propósito.** A ação `Mirar` foi escrita na v0.86 — *Ação Bônus, vantagem no próximo tiro, e só se você não se deslocou nem vai se deslocar* — e ela custa `4,25` fatias num degrau de `0,80`. **As três rotas vão para `5,95` a `6,09` contra um teto de `5,00`, e as três passam a dominar a `Estocada` por `1,20×`.** *Decisão do Mizuki, mesmo molde do `Punho` e da `Brasa`, que já estão publicados estourados.* **Publique como está** — o argumento e os números estão em `desenho/DESENHO-trilhas.md`, na seção `A ação Mirar`.
 
-**4 — O estado de 0 de vida vai mudar de nome.** Ele se chama `Caído` na peça 1 §5.5 e **vai passar a se chamar `Inconsciente`**, porque `Caído` virou a condição de quem foi derrubado. *A troca não foi aplicada: a peça 1, a peça 13 e a peça 15 ainda dizem `Caído` para o estado de 0 de vida.*
+## Uma tensão de nome que você vai notar, e ela é decidida
 
-**5 — O `.pdf` do manual está na v7.4 e o `.docx` na v7.8.** *Ele é exportado à mão e por isso vive atrasado.* **Use o `.docx`.**
+**A seção 5.5 da peça 1 se chama `Inconsciente`, e ela tem dois ramos.** *No `Aguentar` você apaga; no `Insistir` você fica **de pé** a 0 de vida e age normalmente, e só desaba na quarta rodada.*
 
-**6 — O `Batedor` estoura o orçamento em ~20%, e é de propósito.** A ação `Mirar` foi escrita na v0.86 — *Ação Bônus, vantagem no próximo tiro, e só se você não se deslocou nem vai se deslocar* — e ela custa `4,25` fatias num degrau de `0,80`. **As três rotas vão para `5,95` a `6,09` contra um teto de `5,00`, e as três passam a dominar a `Estocada` por `1,20×`.** *Decisão do Mizuki, mesmo molde do `Punho` e da `Brasa`, que já estão publicados estourados.* **Publique como está** — o argumento e os números estão em `desenho/DESENHO-trilhas.md`, na seção `A ação Mirar`.
+**O nome cobre o `Aguentar` e o fim dos dois, e não cobre o meio do `Insistir`.** *Decisão do Mizuki na v0.88, com a alternativa `Queda` na mesa e recusada.* **Publique `Inconsciente`** — e não invente um nome para o ramo do `Insistir`, porque ele não tem um.
+
+> *E não confunda com `Derrubado`, que é `Condição Menor` do manual: quem está `Derrubado` está no chão e continua com vida.*
 
 ## O que existe e o que NÃO existe
 
@@ -74,7 +76,7 @@ Nenhuma delas é opinião — todas foram medidas.
 | NÃO existe | tamanho do buraco |
 |---|---|
 | **As três Trilhas do Evocador** — `Servo`, `Matilha` e `Coro` | cortadas de propósito: ninguém vai jogar de Evocador no primeiro teste. *O `Servo` tem um rascunho pronto no `RASCUNHO-trilhas.md` §6.10, que não veio para cá* |
-| **Régua de condição** | não existe conversão de condição em preço. O `Abalo` das Manhas aplica `Caído` com o efeito escrito por extenso |
+| **Régua de condição** | não existe conversão de condição em preço. O `Abalo` das Manhas aplica `Derrubado` — que é `Condição Menor` do manual — com o efeito escrito por extenso |
 | **Tabela de progressão consolidada** | o que se ganha em cada nível está espalhado por cinco documentos |
 | **Playtest** | zero sessões. **Todo número deste sistema é previsão** |
 | **Nome do sistema** | aberto desde a v0.1 |
