@@ -40,9 +40,7 @@ Nenhuma delas é opinião — todas foram medidas.
 
 **2 — A peça 6 fecha com o calendário velho de Caminho.** O §9 dela diz que o degrau de Caminho é `7 · 15 · 23 · 29`. **Ele mudou na v0.70 e é `2 · 7 · 15 · 30`.** *O calendário de Trilha, `2 · 11 · 19 · 27`, está certo nos dois lugares.*
 
-**3 — A linha de base do físico está publicada num número que a decisão desmente.** A peça 6 §3 publica `106` de dano por rodada no nível 30 para o combatente físico, somando feitiço de Toque **mais** golpe simples. *Mas um feitiço de Toque gasta a Ação Padrão conjurando, e o ataque extra exige a Ação de Atacar — os dois não cabem no mesmo turno, e o físico faz `94`.* **O aviso completo, com a conta, abre o §3 da peça 5.**
-
-> **Decisão do Mizuki: NÃO consertar.** *"Prefiro finalizar o projeto, testar e trazer o retorno."* **Publique o que está escrito e não recalcule nada em cima disso.**
+**3 — A linha do físico está certa, e o aviso que existia aqui morreu na v0.82.** A peça 6 §3 publica `106` de dano por rodada no nível 30 para o combatente físico, somando feitiço de Toque **mais** golpe simples. *Uma versão inteira isso ficou marcado como dívida, porque um feitiço de Toque gasta a Ação Padrão conjurando.* **O golpe vem do ataque extra do nível 7, que é um golpe SOLTO por rodada e não exige a Ação de Atacar.** Está escrito na peça 6 §3.1, com validador em cima. *Publique o `106`; ele é o número certo.*
 
 **4 — O estado de 0 de vida vai mudar de nome.** Ele se chama `Caído` na peça 1 §5.5 e **vai passar a se chamar `Inconsciente`**, porque `Caído` virou a condição de quem foi derrubado. *A troca não foi aplicada: a peça 1, a peça 13 e a peça 15 ainda dizem `Caído` para o estado de 0 de vida.*
 
