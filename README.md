@@ -2,7 +2,7 @@
 
 Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Recorte da v0.84.** Manual do Fundamento na **v7.8**.
+**Recorte da v0.85.** Manual do Fundamento na **v7.8**.
 
 > ## Este repositório é ARTEFATO, e não fonte
 >
@@ -19,8 +19,10 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 
 | pasta | o que é |
 |---|---|
-| `regra/` | as **dezesseis peças** de mecânica, na ordem numérica |
+| `regra/` | as **dezessete peças** de mecânica, na ordem numérica |
 | `desenho/` | o que **ainda não virou peça**: as Trilhas, os degraus de Caminho, as Manhas e a lista de gatilhos |
+
+> **Comece pela peça 17.** Ela é o índice das **89 entradas** que um personagem pode ganhar — 56 entregas de Trilha, 20 degraus de Caminho e as 13 Manhas — e diz, de cada uma, **como ela se chama e em qual arquivo de `desenho/` o texto dela mora.** *Ela não repete preço nem texto de mesa: para isso, ela te manda para o desenho.* **É o mapa mais curto que existe deste material.**
 | `manual/` | o **Fundamento** — o subsistema de técnica e feitiço, fechado e validado. `.docx` na v7.8 |
 | `ficha/` | a ficha em branco e uma ficha de exemplo preenchida, nível 2 |
 
@@ -32,7 +34,7 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 
 **E texto riscado, bloco de citação começando com *"Corrigido na v0.NN"* e nota em itálico são história.** Eles registram o que a regra **era**. Publicar um deles como regra viva é o erro mais fácil de cometer aqui.
 
-## ⚠⚠ Cinco coisas que estão ERRADAS nos arquivos, e você vai encontrar
+## ⚠⚠ Seis coisas que estão ERRADAS nos arquivos, e você vai encontrar
 
 Nenhuma delas é opinião — todas foram medidas.
 
@@ -46,6 +48,8 @@ Nenhuma delas é opinião — todas foram medidas.
 
 **5 — O `.pdf` do manual está na v7.4 e o `.docx` na v7.8.** *Ele é exportado à mão e por isso vive atrasado.* **Use o `.docx`.**
 
+**6 — A ação `Mirar` é entregue seis vezes e não existe.** As três rotas do `Batedor` ganham ela no nível 11 e estendem no 27, e **nenhum arquivo diz o que ela faz nem que slot ela gasta.** *Ela não está entre as doze Ações Padrão da peça 3 §3.1.* **Não publique `Mirar` como regra — não há regra.** *Achado pela peça 17 na v0.85.*
+
 ## O que existe e o que NÃO existe
 
 **Uma ficha de nível 2 fecha inteira**, por seis das nove rotas de Origem, e roda uma missão do começo ao fim.
@@ -56,10 +60,12 @@ Nenhuma delas é opinião — todas foram medidas.
 | o turno e as Restrições | `regra/03` |
 | perícias, ofícios, testes | `regra/04` e `regra/07` |
 | os cinco Caminhos e as quinze Trilhas **por nome** | `regra/06` |
-| **as entregas de 12 das 15 Trilhas** | `desenho/DESENHO-trilhas.md` |
+| **o índice das 89 entradas** — nome e onde o texto mora | `regra/17` |
+| **as entregas de 12 das 15 Trilhas**, e o `Batedor` conta as três rotas | `desenho/DESENHO-trilhas.md` |
 | **os 20 degraus dos cinco Caminhos** | `desenho/DESENHO-caminhos.md` |
 | **as 13 Manhas** — o nível 2 da Vanguarda | `desenho/DESENHO-manhas.md` |
-| **a lista de ações** — Atacar, Correr, Esquivar, Ajudar, Provocar… | **no FIM do** `desenho/DESENHO-caminhos.md` |
+| **as doze Ações Padrão** — Atacar, Conjurar, Correr, Esquivar, Ajudar… | `regra/03`, seção 3.1 |
+| **as duas Ações Bônus** — `Provocar` e `Ler o Ambiente` | **no FIM do** `desenho/DESENHO-caminhos.md` |
 | criação de personagem, em oito passos, com ficha de exemplo | `regra/08` |
 | Origens, Legados, descanso, XP, aptidões, equipamento, invocações, ferramenta | `regra/09` a `regra/16` |
 | técnica, feitiço, Melhoria, Restrição, Expansão de Domínio | `manual/` |
