@@ -103,7 +103,9 @@ A linha passiva do marco sozinha conserta isso:
 
 > **⚠ E o que isto NÃO tem é régua, declarado.** *"Uma aptidão a mais" não converte em fatia, e foi ela que matou o `Repertório` na v0.81.* **A diferença é quem recebe:** lá a Trilha era vendida para qualquer ficha, e o número tinha de valer para quem nunca pega aptidão nenhuma. **Aqui quem leva a segunda aptidão é, por definição, quem já escolheu esse eixo cinco vezes.** *A régua continua não existindo; o que muda é que esta comparação não depende dela.*
 
-**A rota pura passa a precisar de 10 aptidões**, e o catálogo da seção 6 tem **12 que custam marco**. *Cabe, com duas de folga.* **Mas só nove estão escritas com número hoje** — `Barreira Simples`, `Cortina` e a terceira de kokusen continuam *a definir*. *É a primeira coisa que aperta se a lista não crescer.*
+**A rota pura passa a precisar de 10 aptidões**, e o catálogo da seção 6 tem **12 que custam marco**. *Cabe, com duas de folga.* **E desde a v0.91 as doze estão escritas com número**, quando a `Barreira Simples` e a `Cortina` fecharam. **A rota pura passa a ter duas de folga, que é onde ela devia estar** — *escolher qual das doze deixar de fora é escolha, e não falta de cardápio.*
+
+> **⚠ Só que a `Cortina` gasta DOIS marcos**, porque ela exige a `Barreira Simples`. *Uma rota pura que queira as duas usa `2` dos `10` picks para uma entrada só de catálogo.* **A folga de duas continua de pé, e ela some se alguém quiser as doze.**
 
 ### As três não se substituem, e é isso que as equilibra
 
@@ -163,7 +165,7 @@ Uma Classe Passiva 3 não é "uma Classe Passiva 1 maior": é uma coisa de outro
 
 ## 5. O gate, e por que ele não é só nível
 
-**Cada aptidão declara o próprio requisito: nenhum, só nível, só refino, ou os dois.** *E, desde a v0.58, existe um quarto formato — **só Origem** —, escrito no fim desta seção.*
+**Cada aptidão declara o próprio requisito: nenhum, só nível, só refino, ou os dois.** *E existem mais dois formatos, os dois escritos no fim desta seção: **só Origem**, desde a v0.58, e **exigir outra aptidão**, desde a v0.91.* **São cinco no total.**
 
 A régua herdada das Passivas gateia por **nível** — Classe Passiva 1 no 1, a 2 no 7, a 3 no 13. Sozinha, ela não serve aqui, e a conta mostra por quê: com gate só de nível, **quem escolhe refino uma vez, no nível 26, compra uma Classe Passiva 3 na hora** — o mesmo acesso de quem investiu seis vezes. A ficção do refino some.
 
@@ -185,6 +187,29 @@ Doze níveis entre o especialista e o generalista, que é o tamanho que *"quase 
 > **Um gate de Origem só é legal quando o efeito não faz sentido nenhum fora daquela Origem.** Não é para tornar caro; é para dizer que o resto da ficha não tem onde pendurar aquilo.
 
 **Ele é raro de propósito, e o teste é o filtro multi-mestre.** Nível e refino dois mestres leem igual, porque estão escritos na ficha e crescem. Origem é um rótulo — se ela virar moeda de preço, a criação passa a ser escolhida por quais gates ela destrava, e a Origem deixa de ser ficção para virar árvore de talento. **Então ele não se usa para precificar: se o efeito couber num degrau da régua da peça que o publica, é ali que ele mora, e o gate não entra.**
+
+### O quinto formato: gate de aptidão
+
+*Escrito na v0.91, quando a `Cortina` pediu a `Barreira Simples`.* **Uma aptidão pode exigir que você já tenha outra.**
+
+> **⚠ E este formato foi RECUSADO uma versão antes, então a diferença precisa estar escrita.** *Na v0.90 as três de kokusen passaram a empilhar, e fazer a `Kokusen Constante` exigir a `Kokusen Melhorado` foi recusado — porque as três são **alternativas**: cada uma serve sozinha, e o requisito obrigaria a comprar a de antes só para chegar na de depois.* **A `Cortina` é outra coisa: ela é a `Barreira Simples` maior.** *A obra diz isso — barreira é o básico, e cortina exige um nível de habilidade que muitos feiticeiros poderosos não têm.* **Um caso é escada; o outro seria pedágio.**
+
+**A regra de quando ele é legal:** *a aptidão exigida tem de ser a mesma coisa em tamanho menor, e tem de servir sozinha.* **Se a de baixo só existir para destravar a de cima, é pedágio.**
+
+*E o pedágio é exatamente o que a v0.65 derrubou* — uma pergunta de leitor do Mizuki, ***"por que não dá para pegar a de baixo em vez da de cima?"***, matou uma mecânica inteira. **O defeito não era a dependência: era ninguém ter escrito que ela podia existir.** *Agora está escrito.*
+
+**E ele é o único dos cinco formatos que cobra MARCO.**
+
+| formato | quem paga |
+|---|---|
+| nível | o tempo. Você joga e chega |
+| refino | a linha passiva do marco, que sobe `+1` sem escolha nenhuma |
+| Origem | a criação de personagem, uma vez |
+| **aptidão** | **um marco.** É o recurso mais escasso da ficha |
+
+*Uma ficha tem sete marcos na campanha inteira.* **Um gate de refino custa zero marcos — `refino 4` chega no nível 14 até para quem nunca escolhe Refino.** *Um gate de aptidão gasta um marco antes de a aptidão gateada abrir, e é por isso que ele não precisa de número em cima:* **o preço dele já é o mais caro que o marco tem.**
+
+### E o exemplar único do gate de Origem
 
 **O primeiro e único exemplar hoje é o `Remoto` da peça 15 §3.7**, na faixa *fora da cena*: alcance de país exige **Restrição Celestial pelo ramo do corpo limitado** e uma técnica voltada a isso, que é o Ultimate Mechamaru sem regra especial nenhuma. **O validador daquela peça confere que ele continua sendo o único** — um segundo gate no catálogo quer dizer que a régua de degrau parou de precificar sozinha.
 
@@ -272,11 +297,32 @@ O gate duplo tem folga do lado certo. Refino 5 cai no nível 10 para quem sempre
 
 **O preço é ruim de propósito.** A ~2% de dano por rodada, ele vale um quinto do que um ponto de atributo compra, numa campanha com no máximo sete aptidões. Quem olha o número não escolhe; quem escolhe, escolhe pelo grito.
 
-### A terceira de kokusen
+### Kokusen Constante · refino 5
 
 > **A base sobe para `3 × refino`.**
 
 Trinta por cento no teto. É a única das três que mexe no número em vez do dado, e por isso é a que se lê de cara na hora de escolher.
+
+> ***As três empilham, e a ordem é essa:*** **a base é `3 × refino`, e a vantagem da `Kokusen Melhorado` rola em cima dela.** *Com as três na ficha, o d100 sai em `51%` no refino 10.* **Nenhuma delas exige a outra** — os quatro formatos de gate desta peça gateiam por nível, refino, os dois ou Origem, e nenhum deles é *"ter pego a de antes"*.
+
+**Sozinha, ela perde para a `Kokusen Melhorado` em todo refino — e isso fica declarado, com a conta.**
+
+| refino | só a `Melhorado` | só a `Constante` | as duas |
+|---|---|---|---|
+| 1 | 4,0% | 3,0% | 5,9% |
+| 5 | 19,0% | 15,0% | 27,8% |
+| **10** | **36,0%** | 30,0% | **51,0%** |
+
+**A diferença é de forma e não de tamanho.** *Vantagem numa chance `p` dá `2p − p²`, e isso ganha de `1,5p` enquanto `p` estiver abaixo de `50%`.* **O teto do kokusen é `20%`, então a `Melhorado` ganha sempre.**
+
+**O que a `Constante` compra em troca é o que esta seção já dizia dela: ela mora no número da ficha, e não na sorte do dado.** *E o gate é só de refino por causa disso:*
+
+| gate | especialista | meio a meio | generalista |
+|---|---|---|---|
+| **`Kokusen Constante`** — refino 5 | **nível 10** | nível 14 | nível 18 |
+| `Kokusen Melhorado` — refino 5 **e nível 14** | nível 14 | nível 14 | nível 18 |
+
+**São quatro níveis em que ela é a única das duas disponíveis, e eles vão inteiros para quem investiu.** *É a mesma folga do lado certo que o gate duplo da `Melhorado` tem — só que virada para a outra ponta da campanha.*
 
 **A cascata mexe só na chance do d100, e com teto.** Dobrar a chance no refino 5 rende **+0,9 ponto**; fazer a margem cair para 19 rende **+10,9%** — e **9,1 desses pontos vêm do dado a mais, antes de o kokusen entrar**. A margem carrega o crítico inteiro junto, e é por isso que ela está fora.
 
@@ -423,16 +469,80 @@ A conta escolheu sozinha. Medido no Bastião, que é o piso de PE do sistema, nu
 
 As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou o dia; com metade, o custo cai para 9% no nível 20 e **evapora**.
 
-## 7. As três que faltam, e por que
+## 6.6. As duas barreiras — e o gate delas é um relógio
 
-*As quatro anti-domínio saíram desta seção na v0.29 e estão na seção 6.5. **A `Energia Reversa` saiu na v0.78** e está escrita na seção 6, com o gate, o teto e a conta — medida contra a `Recomposição`, que é exatamente o que esta seção mandava fazer.*
+*Escritas na v0.91, e elas eram as duas últimas entradas do catálogo sem número.*
 
-**Faltam por número, e não por dependência:**
+**As duas são ferramenta de preparação e não de luta, e isso não é sabor: é a única forma que a conta deixa.**
+
+> **A régua do projeto diz que dano evitado converte `1` pra `1`.** *Uma barreira que o inimigo precisa quebrar consome nele exatamente a vida dela — então ela **evita a própria vida**.*
+>
+> | vida no teto | quanto ela evitaria | por rodada de luta | em fatias |
+> |---|---|---|---|
+> | `50`, a `Barreira Simples` | 50 de dano | 15,2 | **2,98** |
+> | `200`, a `Cortina` | 200 de dano | 60,6 | **11,93** |
+>
+> **Uma Trilha inteira leva `5,00` fatias, e um marco compra `2,13`.** *Qualquer uma das duas, se coubesse numa luta, seria uma aptidão valendo mais que a Trilha que a ficha escolheu.*
+
+**E gastar a rodada inteira levantando não gateia. Não chega perto.**
+
+*Uma luta dura `3,3` rodadas: gastar uma inteira deixa `2,3` com a barreira de pé, que são `70%` da luta.* **E o câmbio fica a seu favor — uma rodada sua no nível 30 vale `108` de dano, e você a troca por uma barreira que absorve `200`.**
+
+**O que gateia é levantar custar mais do que a luta inteira dura.** `1 minuto` são **dez rodadas** contra uma luta de `3,3`. **Aí ela não cabe, em mesa nenhuma, e nenhum mestre precisa julgar se alguém "está em combate"** — que é a pergunta que sete mesas respondem de sete jeitos.
+
+*E o número já tem casa: `1 minuto` é a duração que o manual usa na Melhoria `Anteparo`.*
+
+### Barreira Simples · sem gate
+
+> **Um minuto para levantar.** Um domo de **raio `6 m`**, ancorado no lugar onde você o ergueu, que **bloqueia passagem e linha de efeito nos dois sentidos**.
+>
+> **Ele tem `5 × refino` de pontos de vida, e cai quando você fica `Inconsciente`.**
+
+**A vida sai de comparação com o manual, e ela fica embaixo de propósito.** *A Melhoria `Anteparo` deixa uma parede com `10 × Classe` de vida — `70` no Classe 7, que é a maior parede que um feitiço monta.* **`5 × refino` dá `50` no teto: menos que a maior parede montada, e por um motivo.** *Aquela custa pontos de montagem dentro de um feitiço e sai numa ação; esta custa um marco e um minuto.* **A que sai rápido pode ser maior; a que é permanente na ficha não pode.**
+
+**Ela é ancorada, e isso é o que a separa de um escudo.** *O domo fica onde foi erguido — você não o leva junto.* **Fechar um cômodo, uma porta, uma escada: é isso que ela faz.**
+
+*Na obra, barreira comum é zona que protege um lugar, e não anteparo portátil.* **A ficção e a conta pediram a mesma coisa.**
+
+### Cortina · exige a `Barreira Simples`
+
+> **Um minuto para levantar.** Ela cobre **um lugar** — um prédio, uma escola, um quarteirão — e **esconde o que está dentro de quem não é feiticeiro**.
+>
+> **Você pendura uma condição sobre quem atravessa.**
+>
+> **Ela tem `20 × refino` de pontos de vida, e cai quando você fica `Inconsciente`.**
+
+**O gate é ter a `Barreira Simples`, e nada mais.** *Sem gate de nível e sem gate de refino:* **o preço é o segundo marco**, e ele é mais caro que qualquer gate de refino, que a linha passiva paga sozinha.
+
+| rota | a `Barreira Simples` abre | a `Cortina` abre |
+|---|---|---|
+| sempre Refino | nível 6 | **nível 10** |
+| meio a meio | nível 10 | **nível 22** |
+| sempre Corpo · sempre Leque | nunca | **nunca** |
+
+***Quem nunca escolhe Refino duas vezes não levanta Cortina, e isso é da obra:*** *cortina exige um nível de habilidade que muitos feiticeiros poderosos não têm, e as condições delas chegam a ser encomendadas a quem sabe fazer.*
+
+**A condição fala de QUEM ATRAVESSA, e de mais nada.** *É o recorte da obra — as condições de uma cortina tratam de energia amaldiçoada e de passagem.*
+
+| a condição pode | a condição não pode |
+|---|---|
+| barrar uma pessoa específica | causar dano a quem entra |
+| deixar entrar quem tem energia amaldiçoada, e mais ninguém | mover a cortina, ou fazer ela seguir você |
+| impedir que quem está dentro saia | dar bônus a quem está dentro |
+| deixar passar quem você nomeou na hora de levantar | esconder de quem é feiticeiro — o efeito base já é o contrário |
+
+*O exemplar da obra é o feiticeiro que levantou uma cortina que deixava outros feiticeiros passarem e barrava só o Gojo.*
+
+> **O tamanho dela não tem metro, e isso é decisão e não descuido.** *Ela é a única coisa do sistema cujo tamanho **nunca entra numa rolagem**: dois mestres discordarem se ela pega um quarteirão ou dois não muda número nenhum, porque nada dentro dela se mede em metros.* **Está escrito aqui justamente para ninguém tentar usá-la como medida de combate** — quem quiser fechar uma distância com energia usa a `Barreira Simples`, que tem raio.
+
+## 7. A que falta, e por que
+
+*As quatro anti-domínio saíram desta seção na v0.29 e estão na seção 6.5. **A `Energia Reversa` saiu na v0.78** e está na seção 6, medida contra a `Recomposição`.* **E a `Barreira Simples` e a `Cortina` saíram na v0.91** — estão na seção 6.6, com o relógio de um minuto que tira as duas do combate.
+
+**Sobra uma, e ela falta por régua e não por número:**
 
 | aptidão | o que ela é | contra o que precisa ser medida |
 |---|---|---|
-| **Barreira Simples** | bloqueia passagem e linha de efeito | a Melhoria **Anteparo** do manual, que faz coisa parecida por orçamento |
-| **Cortina** | o véu que esconde de quem não é feiticeiro | nada — ela não tem efeito de combate, e o teste dela é de cena |
 | **Aptidão Própria** | qualquer outra coisa, uma vez na ficha inteira | a régua do **Efeito Próprio**: *em quantas cenas por arco isso importa?* |
 
 **A Aptidão Própria tem duas travas escritas.** Ela é **Classe 1 ou 2, nunca 3** — permanente é caro demais para sair de aprovação —, e **só pode ser pega uma vez na ficha inteira**, no mesmo molde do Legado. Ela é a energia densa do Hakari e o Punho Divergente do Itadori: a coisa que um feiticeiro construiu sozinho, que não é técnica e não está no catálogo.
@@ -531,7 +641,7 @@ Sobraram dois pedaços que a seção 6.1 não tinha, e só eles ficam:
 |---|---|
 | **Kokusen** | em crítico no corpo a corpo, role d100: **2 × refino** ou menos é kokusen, e o dano leva **+50% depois de tudo resolvido** |
 | **Kokusen Melhorado** | **vantagem no d100.** Refino 5 e nível 14. Ganha do `3 ×` em todo refino — 36% contra 30% no refino 10 |
-| **a terceira** | sobe a base para **3 × refino** |
+| **`Kokusen Constante`** | sobe a base para **3 × refino**, e a vantagem da `Melhorado` rola em cima. Refino 5, sem gate de nível |
 
 A 2 ×, o refino 10 soma **1,8% de dano por rodada** e leva ~5 sessões até o primeiro; no refino 1 são **47 sessões**, então ele praticamente não existe antes de você investir. **A cascata mexe só na chance do d100, com teto** — fazer a margem cair para 19 renderia +10,9%, dos quais **9,1 vêm do dado a mais** e não do kokusen.
 
@@ -548,7 +658,7 @@ A 2 ×, o refino 10 soma **1,8% de dano por rodada** e leva ~5 sessões até o p
 
 O motivo de "por cena" não servir: o acúmulo só começa a partir do **segundo crítico da mesma cena**, e dois críticos no mesmo combate acontecem em **4,4%** das vezes — ele evapora antes de servir.
 
-Com as três de kokusen, o catálogo fica em **catorze entradas** — doze da obra mais a terceira mais a Aptidão Própria —, dentro da faixa de doze a quinze.
+Com as três de kokusen, o catálogo fica em **catorze entradas** — doze da obra mais a `Kokusen Constante` mais a Aptidão Própria —, dentro da faixa de doze a quinze.
 
 ### O Limiar — mecânica à parte, e o cardápio precisa dizer o tamanho
 
@@ -583,12 +693,12 @@ E os dois **correm em sentidos opostos**: a vantagem é auto-regulada e dá pouc
 | 5 | **Domínio Simples** | Classe 2 · refino 4, nível 7 | o raio: `1,5 m + refino ÷ 2` |
 | 6 | **Pétala** | Classe 2 · refino 4, nível 7 | Acertos devolvidos: `refino ÷ 2` |
 | 7 | **Extensão de Domínio** | Classe 3 · refino 7, nível 13 | a duração: `refino` rodadas |
-| 8 | **Barreira Simples** | *a definir* | *a definir* |
-| 9 | **Cortina** | *a definir* | *a definir* |
+| 8 | **Barreira Simples** | sem gate | a vida do domo: `5 ×` |
+| 9 | **Cortina** | exige a `Barreira Simples` | a vida dela: `20 ×` |
 | 10 | **Energia Reversa** | Classe Passiva 3 · refino 7, nível 13 | **nada** — o teto é `maior Classe`, e `1d8` de cura por PE |
 | 11 | **Kokusen** | — | a chance no d100, `2 ×` |
 | 12 | **Kokusen Melhorado** | refino 5, nível 14 | vantagem no d100 |
-| 13 | **(a terceira de kokusen)** | *a definir* | a chance, `3 ×` |
+| 13 | **Kokusen Constante** | refino 5 | a chance, `3 ×` |
 | 14 | **Aptidão Própria** | Classe 1 ou 2, **uma vez na ficha** | conforme o que for escrito |
 
 **Todas custam um marco. Nenhuma custa espaço de feitiço** — essa é a moeda das Passivas e da Expansão de Domínio, que ficam do lado do manual.
