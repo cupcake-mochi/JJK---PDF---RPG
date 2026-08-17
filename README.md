@@ -2,7 +2,7 @@
 
 Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Recorte da v0.94.** Manual do Fundamento na **v7.8**.
+**Recorte da v0.97.** Manual do Fundamento na **v7.9**.
 
 > ## Este repositório é ARTEFATO, e não fonte
 >
@@ -70,6 +70,7 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 | **as duas Ações Bônus** — `Provocar` e `Ler o Ambiente` | **no FIM do** `desenho/DESENHO-caminhos.md` |
 | **o alcance de cada arma de projétil e arremesso** — as 19, em metros | `regra/14`, seção 5.2.2 |
 | **Cobertura** — Parcial, Boa e Total | `regra/01`, seção 8.2 |
+| **as quinze condições**, com o efeito de cada uma | `regra/01`, seção 8.3, e `manual/` |
 | criação de personagem, em oito passos, com ficha de exemplo | `regra/08` |
 | Origens, Legados, descanso, XP, aptidões, equipamento, invocações, ferramenta | `regra/09` a `regra/16` |
 | técnica, feitiço, Melhoria, Restrição, Expansão de Domínio | `manual/` |
@@ -78,7 +79,7 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 | NÃO existe | tamanho do buraco |
 |---|---|
 | **As três Trilhas do Evocador** — `Servo`, `Matilha` e `Coro` | cortadas de propósito: ninguém vai jogar de Evocador no primeiro teste. *O `Servo` tem um rascunho pronto no `RASCUNHO-trilhas.md` §6.10, que não veio para cá* |
-| **Régua de condição** | não existe conversão de condição em preço. O `Abalo` das Manhas aplica `Derrubado` — que é `Condição Menor` do manual — com o efeito escrito por extenso |
+| **Régua de PREÇO de condição** | as quinze condições têm efeito escrito desde a v0.95 (`regra/01`, seção 8.3, e o manual). *O que não existe é conversão de condição em fatia* — por isso nenhuma delas foi balanceada, e a força vai ser medida no playtest |
 | **Tabela de progressão consolidada** | o que se ganha em cada nível está espalhado por cinco documentos |
 | **Playtest** | zero sessões. **Todo número deste sistema é previsão** |
 | ~~Nome do sistema~~ | **`Projeto - M`, batizado na v0.94** |
