@@ -2,7 +2,7 @@
 
 Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Recorte da v0.103.** Manual do Fundamento na **v7.9**.
+**Recorte da v0.104.** Manual do Fundamento na **v7.10**.
 
 > ## Este repositório é ARTEFATO, e não fonte
 >
@@ -21,7 +21,7 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 |---|---|
 | `regra/` | as **dezenove peças** de mecânica, na ordem numérica |
 | `desenho/` | o que **ainda não virou peça**: as Trilhas, os degraus de Caminho, as Manhas, a lista de gatilhos, o esqueleto e a regra opcional do `Bloquear` |
-| `manual/` | o **Fundamento** — o subsistema de técnica e feitiço, fechado e validado. `.docx` e `.pdf` na **v7.9** |
+| `manual/` | o **Fundamento** — o subsistema de técnica e feitiço, fechado e validado. `.docx` e `.pdf` na **v7.10** |
 | `ficha/` | a ficha em branco e uma ficha de exemplo preenchida, nível 2 |
 
 > ## Dois arquivos de `desenho/` não são desenho, e entraram na v0.98
@@ -48,7 +48,7 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 
 **1 — A linha do físico está certa, e o aviso que existia aqui morreu na v0.82.** A peça 6 §3 publica `106` de dano por rodada no nível 30 para o combatente físico, somando feitiço de Toque **mais** golpe simples. *Uma versão inteira isso ficou marcado como dívida, porque um feitiço de Toque gasta a Ação Padrão conjurando.* **O golpe vem do ataque extra do nível 7, que é um golpe SOLTO por rodada e não exige a Ação de Atacar.** Está escrito na peça 6 §3.1, com validador em cima. *Publique o `106`; ele é o número certo.*
 
-~~**2 — O `.pdf` do manual está atrasado em relação ao `.docx`.**~~ **Resolvido na v0.93:** o `.pdf` deixou de ser exportado a mão e sai junto. *Os dois estão na* **v7.9**, *e pode usar qualquer um.*
+~~**2 — O `.pdf` do manual está atrasado em relação ao `.docx`.**~~ **Resolvido na v0.93:** o `.pdf` deixou de ser exportado a mão e sai junto. *Os dois estão na* **v7.10**, *e pode usar qualquer um.*
 
 **3 — O `Batedor` estoura o orçamento em ~20%, e é de propósito.** A ação `Mirar` foi escrita na v0.86 — *Ação Bônus, vantagem no próximo tiro, e só se você não se deslocou nem vai se deslocar* — e ela custa `4,25` fatias num degrau de `0,80`. **As três rotas vão para `5,95` a `6,09` contra um teto de `5,00`, e as três passam a dominar a `Estocada` por `1,20×`.** *Decisão do Mizuki, mesmo molde do `Punho` e da `Brasa`, que já estão publicados estourados.* **Publique como está** — o argumento e os números estão em `desenho/DESENHO-trilhas.md`, na seção `A ação Mirar`.
 
