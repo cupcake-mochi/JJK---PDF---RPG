@@ -2,7 +2,7 @@
 
 Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Recorte da v0.102.** Manual do Fundamento na **v7.9**.
+**Recorte da v0.103.** Manual do Fundamento na **v7.9**.
 
 > ## Este repositório é ARTEFATO, e não fonte
 >
@@ -19,7 +19,7 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 
 | pasta | o que é |
 |---|---|
-| `regra/` | as **dezoito peças** de mecânica, na ordem numérica |
+| `regra/` | as **dezenove peças** de mecânica, na ordem numérica |
 | `desenho/` | o que **ainda não virou peça**: as Trilhas, os degraus de Caminho, as Manhas, a lista de gatilhos, o esqueleto e a regra opcional do `Bloquear` |
 | `manual/` | o **Fundamento** — o subsistema de técnica e feitiço, fechado e validado. `.docx` e `.pdf` na **v7.9** |
 | `ficha/` | a ficha em branco e uma ficha de exemplo preenchida, nível 2 |
@@ -77,10 +77,13 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 | **as doze Ações Padrão** — Atacar, Conjurar, Correr, Esquivar, Ajudar… | `regra/03`, seção 3.1 |
 | **as duas Ações Bônus** — `Provocar` e `Ler o Ambiente` | `regra/03`, seção 3.1. *A conta de preço das duas está no fim do* `desenho/DESENHO-caminhos.md` |
 | **o alcance de cada arma de projétil e arremesso** — as 19, em metros | `regra/14`, seção 5.2.2 |
-| **Cobertura** — Parcial, Boa e Total | `regra/01`, seção 8.2 |
-| **as catorze condições**, com o efeito de cada uma | `regra/01`, seção 8.3, e `manual/` |
+| **Cobertura** — Parcial, Boa e Total | `regra/19`, seção 5 |
+| **as catorze condições**, com o efeito de cada uma e o nível de cada uma | `regra/19`, seção 3, e `manual/` |
+| **os catorze tipos de dano**, em três grupos | `regra/19`, seção 4 |
+| **quanto vale uma condição**, em dano por rodada e em fatia | `regra/19`, seção 2 |
 | criação de personagem, em oito passos, com ficha de exemplo | `regra/08` |
 | Origens, Legados, descanso, XP, aptidões, equipamento, invocações, ferramenta | `regra/09` a `regra/16` |
+| **dano e condições** — a régua, as catorze condições, os tipos de dano e a cobertura | `regra/19` |
 | técnica, feitiço, Melhoria, Restrição, Expansão de Domínio | `manual/` |
 | vida e dano de chefe e capanga por nível | `manual/`, tabela de inimigo |
 | **o que você ganha em cada nível, do 1 ao 30** — XP, maestria, espaços de feitiço, refino, Classe, Passiva, Classe 0 e os eventos | `regra/18`, numa tabela só |
@@ -90,7 +93,7 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 | NÃO existe | tamanho do buraco |
 |---|---|
 | **As três Trilhas do Evocador** — `Servo`, `Matilha` e `Coro` | cortadas de propósito: ninguém vai jogar de Evocador no primeiro teste. *O `Servo` tem um rascunho pronto no `RASCUNHO-trilhas.md` §6.10, que não veio para cá* |
-| **Régua de PREÇO de condição** | as catorze condições têm efeito escrito desde a v0.95 (`regra/01`, seção 8.3, e o manual). *O que não existe é conversão de condição em fatia* — por isso nenhuma delas foi balanceada, e a força vai ser medida no playtest |
+| ~~**Régua de PREÇO de condição**~~ | **existe desde a v0.103: é a `regra/19`, seção 2.** *Cada uma das catorze tem valor em dano por rodada e nível — `Leve`, `Média` ou `Pesada` —, e tirar uma custa `1` ponto de energia por nível.* **A força continua sendo previsão até alguém jogar** |
 | ~~Tabela de progressão consolidada~~ | **existe desde a v0.99: é a `regra/18`.** *Uma tabela, do nível 1 ao 30* |
 | **Playtest** | zero sessões. **Todo número deste sistema é previsão** |
 | ~~Nome do sistema~~ | **`Projeto - M`, batizado na v0.94** |
