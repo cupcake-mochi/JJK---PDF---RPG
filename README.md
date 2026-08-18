@@ -34,6 +34,52 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 
 > **Comece pela peça 17.** Ela é o índice das **89 entradas** que um personagem pode ganhar — 56 entregas de Trilha, 20 degraus de Caminho e as 13 Manhas — e diz, de cada uma, **como ela se chama e em qual arquivo de `desenho/` o texto dela mora.** *Ela não repete preço nem texto de mesa: para isso, ela te manda para o desenho.* **É o mapa mais curto que existe deste material.**
 
+## O plano do livro — dezesseis capítulos em três partes
+
+**Decisão do Mizuki. Este é o índice a seguir, e ele não é sugestão.**
+
+*O rascunho da v0.97 inventou o próprio índice, com oito capítulos, e deixou de fora onze que o jogador precisa. O efeito está medido no PDF que ele produziu: a palavra `Perícia` aparece 35 vezes, `Descanso` 34, `Refino` 15 e `Exaustão` 4 — e nenhum capítulo diz o que qualquer uma delas é.*
+
+**A ordem existe por um motivo só: nenhum termo aparece antes de ter capítulo.**
+
+| # | capítulo | de onde sai |
+|---|---|---|
+| | **PARTE 1 — O JOGO** | |
+| 1 | Atributos, acerto, defesa, vida e energia | `regra/01` · `regra/02` |
+| 2 | O turno, a iniciativa e as doze Ações | `regra/03` · `regra/05` |
+| 3 | Perícias, ofícios e testes | `regra/04` · `regra/07` |
+| 4 | Dano, condições e cobertura | `regra/19` |
+| 5 | Descanso e recuperação | `regra/10` |
+| | **PARTE 2 — O PERSONAGEM** | |
+| 6 | Criação de personagem, em oito passos | `regra/08` |
+| 7 | Origens e Legados | `regra/09` · `regra/13` |
+| 8 | Caminhos | `regra/06` · `desenho/DESENHO-caminhos.md` |
+| 9 | Trilhas | `desenho/DESENHO-trilhas.md` · `desenho/LISTA-gatilhos-trilhas.md` |
+| 10 | Manhas | `desenho/DESENHO-manhas.md` |
+| 11 | Fundamento — técnica e feitiço | `manual/` |
+| 12 | Aptidões e refino | `regra/11` · `desenho/arquitetura.md` §4.3 |
+| 13 | Equipamento | `regra/14` |
+| 14 | Ferramenta amaldiçoada | `regra/16` |
+| 15 | Invocações | `regra/15` |
+| | **PARTE 3 — A CAMPANHA** | |
+| 16 | Experiência e progressão | `regra/12` · `regra/18` |
+| | *apêndice* | |
+| — | `Bloquear` — regra opcional | `desenho/RASCUNHO-bloqueio.md` |
+
+**A `regra/17` não vira capítulo.** Ela é índice das 89 entradas, e o sumário do livro faz o trabalho dela. *Ela continua sendo o melhor mapa para escrever — só não é material de mesa.*
+
+### O tamanho, medido contra o rascunho da v0.97
+
+**A compressão real é de 14%:** as 112 mil palavras de peça e desenho que o rascunho publicou viraram 62 páginas. Os onze capítulos que faltam somam 52 mil palavras de fonte, então saem **28 a 38 páginas**.
+
+**O livro fecha perto de 140 páginas**, das quais 42 são o Fundamento.
+
+> ### ⚠ Dois defeitos de pipeline do rascunho, para não repetir
+>
+> **1 — O sumário tem número de página errado, e a causa é `id` duplicado.** No capítulo de Trilhas, as cinco entradas de Caminho apontam para as páginas 64 a 67, que são o capítulo anterior. Mesmo defeito no capítulo de Invocações, onde *"O catálogo"* aponta para a página 84, que é o capítulo de Manhas. **O `target-counter(attr(href), page)` resolve para o primeiro elemento com aquele `id`**, e duas seções de mesmo nome em capítulos diferentes viram o mesmo `id`. *Conserto: prefixe o `id` com o capítulo.*
+>
+> **2 — O Fundamento precisa ser regerado, e não reaproveitado.** O rascunho transcreveu o manual na `v7.9`. Ele está na **v7.10**, e a v0.104 mexeu em dois feitiços prontos: `Palma Trovejante` de `5d8` para `6d8`, e `Vala Comum` de `9d8` para `11d8`. *É trabalho mecânico — transcrever o `.docx` —, mas não é copiar o capítulo antigo.*
+
 ## ⚠ A primeira coisa a entender: as peças NÃO são texto de mesa
 
 **Elas são argumento de design.** Cada uma explica por que o número é aquele, o que foi testado, o que morreu no caminho e o que ficou pendurado. Uma peça típica tem mais parágrafo de justificativa do que de regra.
@@ -41,6 +87,28 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 **Para o PDF, o trabalho é transpor, não copiar.** A regra está lá dentro, quase sempre num bloco de citação (`>`) ou numa tabela. O resto é registro.
 
 **E texto riscado, bloco de citação começando com *"Corrigido na v0.NN"* e nota em itálico são história.** Eles registram o que a regra **era**. Publicar um deles como regra viva é o erro mais fácil de cometer aqui.
+
+## ⚠⚠ Quando você achar um buraco, DECLARE — a passada anterior inventou
+
+**Isto aconteceu de verdade, e foi medido.** O rascunho de PDF da v0.97 chegou nas três Trilhas do Evocador, não achou entrega escrita para nenhuma das três, e abriu a seção com esta frase:
+
+> *"As três Trilhas do Evocador não seguem a tabela de 2 · 11 · 19 · 27 das outras doze."*
+
+**Ninguém neste material diz isso.** Quatro arquivos daqui dizem o contrário, e afirmam que o calendário `2 · 11 · 19 · 27` vale para toda Trilha, sem exceção: a `regra/05`, a `regra/06`, a `regra/08` e o `desenho/DESENHO-trilhas.md`. *No repositório de trabalho ainda tem um quinto, o rascunho de Trilhas, que não vem para cá.*
+
+*A tabela que vinha logo abaixo daquela frase era legítima — ela sai da `regra/15`, que preça o que cada uma das três concede em orçamento de corpo e em vida de corpo.* **O que era invenção era a moldura**, e é a moldura que faz o estrago: ela transforma *"isto não foi escrito"* em *"isto é assim de propósito"*. Um leitor de mesa não tem como descobrir a diferença.
+
+**O que fazer no lugar, e o próprio rascunho já sabia:** no mesmo capítulo, o nível 27 do `Arremate` saiu escrito como *"Sem entrega publicada"*. **É essa a forma certa.** Diga que falta, diga que está parado, e siga.
+
+> ### O buraco do Evocador, com o tamanho dele
+>
+> **As três Trilhas do Evocador — `Servo`, `Matilha` e `Coro` — não têm entrega escrita**, e estão paradas desde a v0.82. O que existe delas: o nome, a frase de uma linha na `regra/06`, e a tabela da `regra/15` que diz o orçamento e a vida do corpo de cada uma.
+>
+> **O que NÃO existe são as quatro entregas de níveis `2 · 11 · 19 · 27` das três.**
+>
+> **O tamanho, em número:** a Trilha se escolhe no nível 2, junto do Caminho, e é obrigatória. Uma Trilha inteira leva `5` fatias de orçamento e um Caminho leva `3`. **Um Evocador sai com `5` de `8` fatias faltando — 62,5% do orçamento da ficha.** Os quatro degraus de Caminho dele estão escritos com texto de mesa; a camada de Trilha está vazia inteira.
+>
+> **Publique o Evocador com o buraco declarado.** O Caminho dele é jogável — `Sintonia`, `Coleira`, `Escudo de Osso` e `Segundo Corpo` têm texto. **A Trilha não é**, e o capítulo tem de dizer isso com todas as letras, do mesmo jeito que o `Arremate` diz.
 
 ## ⚠⚠ Três coisas que estão ERRADAS nos arquivos, e você vai encontrar
 
@@ -50,7 +118,9 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 
 ~~**2 — O `.pdf` do manual está atrasado em relação ao `.docx`.**~~ **Resolvido na v0.93:** o `.pdf` deixou de ser exportado a mão e sai junto. *Os dois estão na* **v7.10**, *e pode usar qualquer um.*
 
-**3 — O `Batedor` estoura o orçamento em ~20%, e é de propósito.** A ação `Mirar` foi escrita na v0.86 — *Ação Bônus, vantagem no próximo tiro, e só se você não se deslocou nem vai se deslocar* — e ela custa `4,25` fatias num degrau de `0,80`. **As três rotas vão para `5,95` a `6,09` contra um teto de `5,00`, e as três passam a dominar a `Estocada` por `1,20×`.** *Decisão do Mizuki, mesmo molde do `Punho` e da `Brasa`, que já estão publicados estourados.* **Publique como está** — o argumento e os números estão em `desenho/DESENHO-trilhas.md`, na seção `A ação Mirar`.
+**3 — O `Batedor` estoura o orçamento em ~20%, e é de propósito.** A ação `Mirar` foi escrita na v0.86 — *Ação Bônus, vantagem no próximo tiro, e só se você não se deslocou nem vai se deslocar* — e ela custa `4,25` fatias num degrau de `0,80`. **As três rotas vão para `5,95` a `6,09` contra um teto de `5,00`, e as três passam a dominar a `Estocada` por `1,20×`.** *Decisão do Mizuki, no mesmo molde da `Brasa`, que já está publicada estourada.* **Publique como está** — o argumento e os números estão em `desenho/DESENHO-trilhas.md`, na seção `A ação Mirar`.
+
+> *⚠ Esta linha citava o `Punho` como segundo precedente, e ele caiu na v0.103: aquele estouro de `22%` era erro de preço — o `Derrubado` do nível 11 estava preçado como permanente, sem os dois portões que o texto da entrega escreve. Com eles a Trilha cabe em `4,94` de `5,00`. **A conta destas três rotas não muda; o que muda é qual precedente elas citam.** O maior estouro aceito do projeto passa a ser a `Brasa`, entre `41%` e `88%`.*
 
 ## Uma tensão de nome que você vai notar, e ela é decidida
 
@@ -58,7 +128,9 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 
 **O nome cobre o `Aguentar` e o fim dos dois, e não cobre o meio do `Insistir`.** *Decisão do Mizuki na v0.88, com a alternativa `Queda` na mesa e recusada.* **Publique `Inconsciente`** — e não invente um nome para o ramo do `Insistir`, porque ele não tem um.
 
-> *E não confunda com `Derrubado`, que é `Condição Menor` do manual: quem está `Derrubado` está no chão e continua com vida.*
+> *E não confunda com `Derrubado`, que é condição de nível `Leve`: quem está `Derrubado` está no chão e continua com vida.*
+
+> *⚠ Esta linha dizia que o `Derrubado` era `Condição Menor` do manual. **A `Condição Menor` e a `Condição Maior` deixaram de existir na v0.104** — as duas viraram uma Melhoria só, chamada `Condição`, e o preço dela é o **nível** da condição escolhida. O `Derrubado` desceu de `Média` para `Leve` na mesma versão.*
 
 ## O que existe e o que NÃO existe
 
@@ -92,7 +164,7 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 
 | NÃO existe | tamanho do buraco |
 |---|---|
-| **As três Trilhas do Evocador** — `Servo`, `Matilha` e `Coro` | cortadas de propósito: ninguém vai jogar de Evocador no primeiro teste. *O `Servo` tem um rascunho pronto no `RASCUNHO-trilhas.md` §6.10, que não veio para cá* |
+| **As três Trilhas do Evocador** — `Servo`, `Matilha` e `Coro` | **paradas desde a v0.82, e o buraco é `5` de `8` fatias da ficha.** *O `Servo` tem um rascunho pronto no repositório de trabalho, que não veio para cá.* **Leia a seção *"Quando você achar um buraco, DECLARE"* antes de escrever este capítulo** — a passada anterior inventou uma exceção aqui |
 | ~~**Régua de PREÇO de condição**~~ | **existe desde a v0.103: é a `regra/19`, seção 2.** *Cada uma das catorze tem valor em dano por rodada e nível — `Leve`, `Média` ou `Pesada` —, e tirar uma custa `1` ponto de energia por nível.* **A força continua sendo previsão até alguém jogar** |
 | ~~Tabela de progressão consolidada~~ | **existe desde a v0.99: é a `regra/18`.** *Uma tabela, do nível 1 ao 30* |
 | **Playtest** | zero sessões. **Todo número deste sistema é previsão** |
@@ -120,7 +192,9 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 
 ## O que NÃO tem régua, e por isso não se inventa preço
 
-**Gastar PE**, **condição**, e **"uma aptidão a mais"**. *A última não pode ter régua: ela vale a Trilha inteira para quem nunca escolhe Refino e um sétimo para quem sempre escolhe — foi ela que matou o `Repertório`.*
+**Gastar PE** e **"uma aptidão a mais"**. *A última não pode ter régua: ela vale a Trilha inteira para quem nunca escolhe Refino e um sétimo para quem sempre escolhe — foi ela que matou o `Repertório`.*
+
+> *⚠ `condição` estava nesta lista, e ela saiu na v0.103.* **A régua de preço de condição existe: é a `regra/19`, seção 2**, e a linha da tabela acima já dizia isso — este parágrafo contradizia aquela linha 27 linhas depois.
 
 ## Licença e escopo
 
