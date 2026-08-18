@@ -2,7 +2,7 @@
 
 Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Recorte da v0.98.** Manual do Fundamento na **v7.9**.
+**Recorte da v0.99.** Manual do Fundamento na **v7.9**.
 
 > ## Este repositório é ARTEFATO, e não fonte
 >
@@ -19,7 +19,7 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 
 | pasta | o que é |
 |---|---|
-| `regra/` | as **dezessete peças** de mecânica, na ordem numérica |
+| `regra/` | as **dezoito peças** de mecânica, na ordem numérica |
 | `desenho/` | o que **ainda não virou peça**: as Trilhas, os degraus de Caminho, as Manhas, a lista de gatilhos, o esqueleto e a regra opcional do `Bloquear` |
 | `manual/` | o **Fundamento** — o subsistema de técnica e feitiço, fechado e validado. `.docx` e `.pdf` na **v7.9** |
 | `ficha/` | a ficha em branco e uma ficha de exemplo preenchida, nível 2 |
@@ -83,6 +83,7 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 | Origens, Legados, descanso, XP, aptidões, equipamento, invocações, ferramenta | `regra/09` a `regra/16` |
 | técnica, feitiço, Melhoria, Restrição, Expansão de Domínio | `manual/` |
 | vida e dano de chefe e capanga por nível | `manual/`, tabela de inimigo |
+| **o que você ganha em cada nível, do 1 ao 30** — XP, maestria, espaços de feitiço, refino, Classe, Passiva, Classe 0 e os eventos | `regra/18`, numa tabela só |
 | **quanto refino você tem em cada marco** — as três rotas, do nv6 ao nv30 | `desenho/arquitetura.md`, seção 4.3 |
 | **`Bloquear`** — a regra opcional de rolar `2d10` no lugar da Defesa estática | `desenho/RASCUNHO-bloqueio.md` |
 
@@ -90,7 +91,7 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 |---|---|
 | **As três Trilhas do Evocador** — `Servo`, `Matilha` e `Coro` | cortadas de propósito: ninguém vai jogar de Evocador no primeiro teste. *O `Servo` tem um rascunho pronto no `RASCUNHO-trilhas.md` §6.10, que não veio para cá* |
 | **Régua de PREÇO de condição** | as catorze condições têm efeito escrito desde a v0.95 (`regra/01`, seção 8.3, e o manual). *O que não existe é conversão de condição em fatia* — por isso nenhuma delas foi balanceada, e a força vai ser medida no playtest |
-| **Tabela de progressão consolidada** | o que se ganha em cada nível está espalhado por **cinco** documentos: marcos em `regra/02`, maestria em `regra/01`, refino em `desenho/arquitetura.md`, XP em `regra/12`, Classe e feitiço no `manual/`. *Os cinco estão aqui desde a v0.98 — o que falta é juntar* |
+| ~~Tabela de progressão consolidada~~ | **existe desde a v0.99: é a `regra/18`.** *Uma tabela, do nível 1 ao 30* |
 | **Playtest** | zero sessões. **Todo número deste sistema é previsão** |
 | ~~Nome do sistema~~ | **`Projeto - M`, batizado na v0.94** |
 
