@@ -2,7 +2,7 @@
 
 Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Recorte da v0.105.** Manual do Fundamento na **v7.10**.
+**Recorte da v0.106.** Manual do Fundamento na **v7.10**.
 
 > ## Este repositório é ARTEFATO, e não fonte
 >
