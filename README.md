@@ -23,6 +23,7 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 | `desenho/` | o que **ainda não virou peça**: as Trilhas, os degraus de Caminho, as Manhas, a lista de gatilhos, o esqueleto e a regra opcional do `Bloquear` |
 | `manual/` | o **Fundamento** — o subsistema de técnica e feitiço, fechado e validado. `.docx` e `.pdf` na **v7.10** |
 | `ficha/` | a ficha em branco e uma ficha de exemplo preenchida, nível 2 |
+| `livro/` | **o Manual da Guilda inteiro** — o texto de mesa que a v0.102 decidiu escrever direto no PDF. 230 páginas, `.pdf` e `.docx` de revisão |
 
 > ## Dois arquivos de `desenho/` não são desenho, e entraram na v0.98
 >
@@ -72,7 +73,9 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 
 **A compressão real é de 14%:** as 112 mil palavras de peça e desenho que o rascunho publicou viraram 62 páginas. Os onze capítulos que faltam somam 52 mil palavras de fonte, então saem **28 a 38 páginas**.
 
-**O livro fecha perto de 140 páginas**, das quais 42 são o Fundamento.
+**O livro fechou em 230 páginas** — a estimativa de 140 daqui era de antes de existir texto de
+verdade. Está em `livro/Projeto-M-Manual-da-Guilda.pdf`, com quick-start, glossário e índice
+remissivo, nenhum deles previstos nesta estimativa original.
 
 > ### ⚠ Dois defeitos de pipeline do rascunho, para não repetir
 >
