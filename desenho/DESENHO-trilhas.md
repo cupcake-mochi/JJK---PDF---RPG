@@ -686,6 +686,12 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 >
 > **Acertar com dois ataques é `75%` — o mesmo gate que o `Engate` já usa nesta Trilha. Falhar um Teste de Resistência é `45%`, da peça 1 §6. Juntos, `33,8%`.**
 >
+> **⚠⚠ Os dois números mudaram de dono na v0.117, e a v0.119 mediu o quanto — sem refazer o preço.** *Com o acerto em `55%`, dois ataques dão `79,75%`; e a falha de TR virou `35%` contra o alvo treinado, que é o caso difícil que o acerto já usa.*
+>
+> **O `Derrubado` deste degrau iria de `0,56` para `0,46`** — ele é o único do catálogo que DESCE, porque a queda da falha de TR é maior que a subida do acerto. *O `Punho` inteiro iria de `4,94` para `5,12`.*
+>
+> ***Decisão do Mizuki na v0.119: medir e não aplicar.*** *As sete entradas afetadas se movem entre `−0,10` e `+0,28` fatia, e as três Trilhas continuam dentro da banda que o projeto já aceita.* **A conta está registrada no `CHANGELOG`; os números publicados ficam como estão.**
+>
 > ***Decisão do Mizuki na v0.103: corrigir o preço e deixar em `4,94`.*** *As `0,06` fatia de folga são ruído — `0,30` de dano por rodada, e este documento já tratou `0,16` como ruído antes.* **Nenhuma linha de texto de mesa se moveu: o que estava errado era a conta, e não o desenho.**
 >
 > *O resto do argumento do estouro fica registrado, porque ele continua valendo para o dia em que outra Trilha estourar de verdade: das cinco peças, quatro disparam quase toda rodada, e a única de fato situacional é o `Tropel`, que é a mais barata.*
@@ -1305,7 +1311,7 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 | nv | nome | a entrega | forma | fatias |
 |---|---|---|---|---|
 | **2** | **`Pavio`** | rerrolar `1` e `2` nos dados de dano, **quando aquele for o seu único feitiço de dano da rodada** | condicional | **1,42** |
-| **11** | **`Estopim`** | some o seu **atributo de conjuração** no dano de todo feitiço | permanente | 1,18 |
+| **11** | **`Estopim`** | some o **atributo da sua técnica** no dano de todo feitiço | permanente | 1,18 |
 | **19** | **`Rompante`** | gaste **`a Classe` do feitiço em PE** para rolar o ataque dele **com vantagem** | botão | **2,25** |
 | **27** | **`Ápice`** | `1×` por cena, um feitiço soma **+metade da Classe em dados**, pagando **PE igual aos dados extras** | botão | 0,72 |
 
@@ -1313,7 +1319,7 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 > **Nível 2.** Quando o feitiço que você conjura é **o único feitiço de dano daquele turno**, **rerrole todo dado de dano dele que cair em `1` ou `2`.**
 >
-> **Nível 11.** Todo feitiço seu soma o **seu atributo de conjuração** no dano.
+> **Nível 11.** Todo feitiço seu soma o **atributo da sua técnica** no dano.
 >
 > **Nível 19.** Ao conjurar um feitiço que resolve por rolagem de acerto, você pode gastar **`a Classe` dele em PE** para rolar aquele ataque **com vantagem**. *Num Classe 7 são `7` PE, além dos `21` do próprio feitiço.*
 >
@@ -1355,6 +1361,7 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 #### O que este bloco deixa em aberto
 
+- ~~**⚠⚠ O `Estopim` pede um `atributo de conjuração`, e a ficha padrão não tem um.**~~ **RESOLVIDO na v0.117, e de graça:** *a base de acerto passou a ser `d20 + atributo da técnica + maestria`, então **toda ficha declara um atributo de técnica na criação**.* **O preço de `1,18` supunha um atributo investido de `3` a `6`, que é exatamente o que a ficha passou a ter** — o degrau não se moveu.
 - **⚠ A dominância sobre a `Torrente` é `1,20×` e fica declarada**, não consertada. *Se ela incomodar na mesa, o conserto é dar coluna ao `Arremate` ou ao `Explosivo`, e não cortar número.*
 - **O nome passou pela triagem e saiu `LIVRE`.** *`Estopim`, `Ápice`, `Auge`, `Rompante`, `Pavio`, `Estouro`, `Fagulha` e `Culminar` também saíram livres, e ficam registrados.*
 - **As doze entregas do Caminho continuam sem nome.**
