@@ -2,7 +2,7 @@
 
 Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Recorte da v0.131.** Manual do Fundamento na **v7.11**, e o Manual da Guilda em **17 capítulos**, 248 páginas.
+**Recorte da v0.133.** Manual do Fundamento na **v7.11**, e o Manual da Guilda em **17 capítulos**, 252 páginas.
 
 > ## Este repositório é ARTEFATO, e não fonte
 >
@@ -19,7 +19,7 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 
 | pasta | o que é |
 |---|---|
-| `regra/` | as **vinte peças** de mecânica, na ordem numérica |
+| `regra/` | as **vinte e uma peças** de mecânica, na ordem numérica |
 | `desenho/` | o que **ainda não virou peça**: as Trilhas, os degraus de Caminho, as Manhas, a lista de gatilhos, o esqueleto e a regra opcional do `Bloquear` |
 | `manual/` | o **Fundamento** — o subsistema de técnica e feitiço, fechado e validado. `.docx` e `.pdf` na **v7.11** |
 | `ficha/` | a ficha em branco e uma ficha de exemplo preenchida, nível 2 |
