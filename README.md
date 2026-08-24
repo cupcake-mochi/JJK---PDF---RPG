@@ -2,7 +2,7 @@
 
 Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Recorte da v0.144.** Manual do Fundamento na **v7.12**, e o Manual da Guilda em **17 capítulos**, 237 páginas.
+**Recorte da v0.146.** Manual do Fundamento na **v7.13**, e o Manual da Guilda em **17 capítulos**, 239 páginas.
 
 > ## Este repositório é ARTEFATO, e não fonte
 >
@@ -19,9 +19,9 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 
 | pasta | o que é |
 |---|---|
-| `regra/` | as **vinte e três peças** de mecânica, na ordem numérica |
+| `regra/` | as **vinte e quatro peças** de mecânica, na ordem numérica |
 | `desenho/` | o que **ainda não virou peça**: as Trilhas, os degraus de Caminho, as Manhas, a lista de gatilhos, o esqueleto e a regra opcional do `Bloquear` |
-| `manual/` | o **Fundamento** — o subsistema de técnica e feitiço, fechado e validado. `.docx` e `.pdf` na **v7.12** |
+| `manual/` | o **Fundamento** — o subsistema de técnica e feitiço, fechado e validado. `.docx` e `.pdf` na **v7.13** |
 | `ficha/` | a ficha em branco e uma ficha de exemplo preenchida, nível 2 |
 | `livro/` | **o Manual da Guilda inteiro** — o texto de mesa que a v0.102 decidiu escrever direto no PDF. 18 capítulos, 238 páginas, `.pdf` e `.docx` de revisão |
 
@@ -49,6 +49,7 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 |---|---|---|
 | | **PARTE 1 — O JOGO** | |
 | 1 | Atributos, acerto, defesa, `Bloquear`, vida e energia | `regra/01` · `regra/02` · `regra/23` |
+| 4 | Dano, condições, cobertura e **dano de alma** | `regra/19` · `regra/24` |
 | 2 | O turno, a iniciativa e as doze Ações | `regra/03` · `regra/05` |
 | 3 | Perícias, ofícios e testes | `regra/04` · `regra/07` |
 | 4 | Dano, condições e cobertura | `regra/19` |
@@ -81,7 +82,7 @@ remissivo, nenhum deles previstos nesta estimativa original.
 >
 > **1 — O sumário tem número de página errado, e a causa é `id` duplicado.** No capítulo de Trilhas, as cinco entradas de Caminho apontam para as páginas 64 a 67, que são o capítulo anterior. Mesmo defeito no capítulo de Invocações, onde *"O catálogo"* aponta para a página 84, que é o capítulo de Manhas. **O `target-counter(attr(href), page)` resolve para o primeiro elemento com aquele `id`**, e duas seções de mesmo nome em capítulos diferentes viram o mesmo `id`. *Conserto: prefixe o `id` com o capítulo.*
 >
-> **2 — O Fundamento precisa ser regerado, e não reaproveitado.** O rascunho transcreveu o manual na `v7.9`. Ele está na **v7.12**, e duas coisas mudaram desde lá: a v0.104 mexeu em dois feitiços prontos — `Palma Trovejante` de `5d8` para `6d8`, e `Vala Comum` de `9d8` para `11d8` —, e a v0.107 devolveu o piso `Classe 3 ou mais` à regra de ouro nº 5, que estava publicado em outros três lugares do manual e faltava justamente na tabela que o checklist do mestre segue. *É trabalho mecânico — transcrever o `.docx` —, mas não é copiar o capítulo antigo.*
+> **2 — O Fundamento precisa ser regerado, e não reaproveitado.** O rascunho transcreveu o manual na `v7.9`. Ele está na **v7.13**, e duas coisas mudaram desde lá: a v0.104 mexeu em dois feitiços prontos — `Palma Trovejante` de `5d8` para `6d8`, e `Vala Comum` de `9d8` para `11d8` —, e a v0.107 devolveu o piso `Classe 3 ou mais` à regra de ouro nº 5, que estava publicado em outros três lugares do manual e faltava justamente na tabela que o checklist do mestre segue. *É trabalho mecânico — transcrever o `.docx` —, mas não é copiar o capítulo antigo.*
 
 ## ⚠ A primeira coisa a entender: as peças NÃO são texto de mesa
 
@@ -119,7 +120,7 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 
 **1 — A linha do físico está certa, e o aviso que existia aqui morreu na v0.82.** A peça 6 §3 publica `106` de dano por rodada no nível 30 para o combatente físico, somando feitiço de Toque **mais** golpe simples. *Uma versão inteira isso ficou marcado como dívida, porque um feitiço de Toque gasta a Ação Padrão conjurando.* **O golpe vem do ataque extra do nível 7, que é um golpe SOLTO por rodada e não exige a Ação de Atacar.** Está escrito na peça 6 §3.1, com validador em cima. *Publique o `106`; ele é o número certo.*
 
-~~**2 — O `.pdf` do manual está atrasado em relação ao `.docx`.**~~ **Resolvido na v0.93:** o `.pdf` deixou de ser exportado a mão e sai junto. *Os dois estão na* **v7.12**, *e pode usar qualquer um.*
+~~**2 — O `.pdf` do manual está atrasado em relação ao `.docx`.**~~ **Resolvido na v0.93:** o `.pdf` deixou de ser exportado a mão e sai junto. *Os dois estão na* **v7.13**, *e pode usar qualquer um.*
 
 **3 — O `Batedor` estoura o orçamento em ~20%, e é de propósito.** A ação `Mirar` foi escrita na v0.86 — *Ação Bônus, vantagem no próximo tiro, e só se você não se deslocou nem vai se deslocar* — e ela custa `4,25` fatias num degrau de `0,80`. **As três rotas vão para `5,95` a `6,09` contra um teto de `5,00`, e as três passam a dominar a `Estocada` por `1,20×`.** *Decisão do Mizuki, no mesmo molde da `Brasa`, que já está publicada estourada.* **Publique como está** — o argumento e os números estão em `desenho/DESENHO-trilhas.md`, na seção `A ação Mirar`.
 
@@ -164,6 +165,7 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 | **o que você ganha em cada nível, do 1 ao 30** — XP, maestria, espaços de feitiço, refino, Classe, Passiva, Classe 0 e os eventos | `regra/18`, numa tabela só |
 | **quanto refino você tem em cada marco** — as três rotas, do nv6 ao nv30 | `desenho/arquitetura.md`, seção 4.3 |
 | **`Bloquear`** — rolar `2d10` no lugar da Defesa parada, e ele vale em toda mesa | `regra/23` |
+| **Dano de alma** — a Integridade leva Essência, os quatro estágios, e o dano que atravessa o corpo | `regra/24` |
 
 | NÃO existe | tamanho do buraco |
 |---|---|
