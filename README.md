@@ -2,7 +2,7 @@
 
 Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Recorte da v0.142.** Manual do Fundamento na **v7.12**, e o Manual da Guilda em **18 capítulos**, 238 páginas.
+**Recorte da v0.143.** Manual do Fundamento na **v7.12**, e o Manual da Guilda em **17 capítulos**, 237 páginas.
 
 > ## Este repositório é ARTEFATO, e não fonte
 >
@@ -19,19 +19,21 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 
 | pasta | o que é |
 |---|---|
-| `regra/` | as **vinte e duas peças** de mecânica, na ordem numérica |
+| `regra/` | as **vinte e três peças** de mecânica, na ordem numérica |
 | `desenho/` | o que **ainda não virou peça**: as Trilhas, os degraus de Caminho, as Manhas, a lista de gatilhos, o esqueleto e a regra opcional do `Bloquear` |
 | `manual/` | o **Fundamento** — o subsistema de técnica e feitiço, fechado e validado. `.docx` e `.pdf` na **v7.12** |
 | `ficha/` | a ficha em branco e uma ficha de exemplo preenchida, nível 2 |
 | `livro/` | **o Manual da Guilda inteiro** — o texto de mesa que a v0.102 decidiu escrever direto no PDF. 18 capítulos, 238 páginas, `.pdf` e `.docx` de revisão |
 
-> ## Dois arquivos de `desenho/` não são desenho, e entraram na v0.98
+> ## Um arquivo de `desenho/` não é desenho, e ele entrou na v0.98
 >
 > **O `arquitetura.md` é o esqueleto do sistema**, e a maior parte dele é história de decisão que não interessa para o PDF. *Ele está aqui por uma linha só:* **a seção 4.3 tem a tabela de quanto refino cada rota tem em cada marco**, do nv6 ao nv30 — e ela não existe em nenhuma peça. **Sem ela não dá para publicar progressão.**
 >
-> **O `RASCUNHO-bloqueio.md` é a regra opcional do `Bloquear`** — rolar `2d10` no lugar da Defesa estática. *Metade da condição `Incapacitado` depende dela*, e a peça 1 mandava o leitor abrir um arquivo que não estava aqui.
+> ***O rascunho do `Bloquear` saiu daqui na v0.143.*** *Ele era a regra opcional, e o `Bloquear` deixou de ser opcional:* **virou a peça 23, e ela mora em `regra/23-bloquear.md` como qualquer outra.** *O rascunho foi para o arquivo morto do projeto, e material morto não vem para a entrega.*
 >
-> **Os dois vieram porque a entrega apontava para eles e não os carregava.** *Até a v0.97 eram 19 ponteiros pendurados; agora a checagem 7 do `conferir-repositorio.py` acusa se voltar a acontecer.*
+> *O nome do arquivo velho não é citado aqui de propósito: a checagem 7.2 procura ponteiro por **texto**, e não distingue "abra este arquivo" de "este arquivo deixou de existir".*
+>
+> **Os dois vieram porque a entrega apontava para eles e não os carregava.** *Até a v0.97 eram 19 ponteiros pendurados; agora a checagem 7 do `conferir-repositorio.py` acusa se voltar a acontecer.* **Hoje sobrou um: o `arquitetura.md`.**
 
 > **Comece pela peça 17.** Ela é o índice das **89 entradas** que um personagem pode ganhar — 56 entregas de Trilha, 20 degraus de Caminho e as 13 Manhas — e diz, de cada uma, **como ela se chama e em qual arquivo de `desenho/` o texto dela mora.** *Ela não repete preço nem texto de mesa: para isso, ela te manda para o desenho.* **É o mapa mais curto que existe deste material.**
 
@@ -46,7 +48,7 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 | # | capítulo | de onde sai |
 |---|---|---|
 | | **PARTE 1 — O JOGO** | |
-| 1 | Atributos, acerto, defesa, vida e energia | `regra/01` · `regra/02` |
+| 1 | Atributos, acerto, defesa, `Bloquear`, vida e energia | `regra/01` · `regra/02` · `regra/23` |
 | 2 | O turno, a iniciativa e as doze Ações | `regra/03` · `regra/05` |
 | 3 | Perícias, ofícios e testes | `regra/04` · `regra/07` |
 | 4 | Dano, condições e cobertura | `regra/19` |
@@ -64,8 +66,6 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 | 15 | Invocações | `regra/15` |
 | | **PARTE 3 — A CAMPANHA** | |
 | 16 | Experiência e progressão | `regra/12` · `regra/18` |
-| | *apêndice* | |
-| — | `Bloquear` — regra opcional | `desenho/RASCUNHO-bloqueio.md` |
 
 **A `regra/17` não vira capítulo.** Ela é índice das 89 entradas, e o sumário do livro faz o trabalho dela. *Ela continua sendo o melhor mapa para escrever — só não é material de mesa.*
 
@@ -163,7 +163,7 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 | vida e dano de chefe e capanga por nível | `manual/`, tabela de inimigo |
 | **o que você ganha em cada nível, do 1 ao 30** — XP, maestria, espaços de feitiço, refino, Classe, Passiva, Classe 0 e os eventos | `regra/18`, numa tabela só |
 | **quanto refino você tem em cada marco** — as três rotas, do nv6 ao nv30 | `desenho/arquitetura.md`, seção 4.3 |
-| **`Bloquear`** — a regra opcional de rolar `2d10` no lugar da Defesa estática | `desenho/RASCUNHO-bloqueio.md` |
+| **`Bloquear`** — rolar `2d10` no lugar da Defesa parada, e ele vale em toda mesa | `regra/23` |
 
 | NÃO existe | tamanho do buraco |
 |---|---|
