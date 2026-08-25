@@ -2,7 +2,7 @@
 
 Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Recorte da v0.146.** Manual do Fundamento na **v7.13**, e o Manual da Guilda em **17 capítulos**, 239 páginas.
+**Recorte da v0.147.** Manual do Fundamento na **v7.13**, e o Manual da Guilda em **17 capítulos**, 242 páginas.
 
 > ## Este repositório é ARTEFATO, e não fonte
 >
@@ -35,7 +35,7 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 >
 > **Os dois vieram porque a entrega apontava para eles e não os carregava.** *Até a v0.97 eram 19 ponteiros pendurados; agora a checagem 7 do `conferir-repositorio.py` acusa se voltar a acontecer.* **Hoje sobrou um: o `arquitetura.md`.**
 
-> **Comece pela peça 17.** Ela é o índice das **89 entradas** que um personagem pode ganhar — 56 entregas de Trilha, 20 degraus de Caminho e as 13 Manhas — e diz, de cada uma, **como ela se chama e em qual arquivo de `desenho/` o texto dela mora.** *Ela não repete preço nem texto de mesa: para isso, ela te manda para o desenho.* **É o mapa mais curto que existe deste material.**
+> **Comece pela peça 17.** Ela é o índice das **90 entradas** que um personagem pode ganhar — 56 entregas de Trilha, 20 degraus de Caminho e as 14 Manhas — e diz, de cada uma, **como ela se chama e em qual arquivo de `desenho/` o texto dela mora.** *Ela não repete preço nem texto de mesa: para isso, ela te manda para o desenho.* **É o mapa mais curto que existe deste material.**
 
 ## O plano do livro — dezesseis capítulos em três partes
 
@@ -68,7 +68,7 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 | | **PARTE 3 — A CAMPANHA** | |
 | 16 | Experiência e progressão | `regra/12` · `regra/18` |
 
-**A `regra/17` não vira capítulo.** Ela é índice das 89 entradas, e o sumário do livro faz o trabalho dela. *Ela continua sendo o melhor mapa para escrever — só não é material de mesa.*
+**A `regra/17` não vira capítulo.** Ela é índice das 90 entradas, e o sumário do livro faz o trabalho dela. *Ela continua sendo o melhor mapa para escrever — só não é material de mesa.*
 
 ### O tamanho, medido contra o rascunho da v0.97
 
@@ -146,7 +146,7 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 | o turno, a iniciativa e as Restrições | `regra/03` |
 | perícias, ofícios, testes | `regra/04` e `regra/07` |
 | os cinco Caminhos e as quinze Trilhas **por nome** | `regra/06` |
-| **o índice das 89 entradas** — nome e onde o texto mora | `regra/17` |
+| **o índice das 90 entradas** — nome e onde o texto mora | `regra/17` |
 | **as entregas de 12 das 15 Trilhas**, e o `Batedor` conta as três rotas | `desenho/DESENHO-trilhas.md` |
 | **os 20 degraus dos cinco Caminhos** | `desenho/DESENHO-caminhos.md` |
 | **as 13 Manhas** — o nível 2 da Vanguarda | `desenho/DESENHO-manhas.md` |
