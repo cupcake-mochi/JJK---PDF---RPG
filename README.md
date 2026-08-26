@@ -2,7 +2,7 @@
 
 Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Recorte da v0.168.** Manual do Fundamento na **v7.17**, e o Manual da Guilda em **17 capítulos**, 245 páginas.
+**Recorte da v0.169.** Manual do Fundamento na **v7.17**, e o Manual da Guilda em **17 capítulos**, 245 páginas.
 
 > ## Este repositório é ARTEFATO, e não fonte
 >
@@ -23,7 +23,7 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 | `desenho/` | o que **ainda não virou peça**: as Trilhas, os degraus de Caminho, as Manhas, a lista de gatilhos, o esqueleto e a regra opcional do `Bloquear` |
 | `manual/` | o **Fundamento** — o subsistema de técnica e feitiço, fechado e validado. `.docx` e `.pdf` na **v7.17** |
 | `ficha/` | a ficha em branco e uma ficha de exemplo preenchida, nível 2 |
-| `livro/` | **o Manual da Guilda inteiro** — o texto de mesa que a v0.102 decidiu escrever direto no PDF. 18 capítulos, 238 páginas, `.pdf` e `.docx` de revisão |
+| `livro/` | **o Manual da Guilda inteiro** — o texto de mesa que a v0.102 decidiu escrever direto no PDF, em **17 capítulos**. `.pdf` e `.docx` de revisão. *A paginação está na linha do recorte, lá em cima, e só lá* |
 
 > ## Um arquivo de `desenho/` não é desenho, e ele entrou na v0.98
 >
@@ -39,7 +39,9 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 
 ## O plano do livro — dezesseis capítulos em três partes
 
-**Decisão do Mizuki. Este é o índice a seguir, e ele não é sugestão.**
+> **⚠ Isto é o PLANO, e o livro já foi escrito — leia como história.** *Ele saiu com **17** capítulos e não com os dezesseis daqui, e divergiu em três lugares: `Caminhos` e `Trilhas` viraram um capítulo só, as `Manhas` foram para dentro dele, e entraram três que o plano não previa — `Técnica Marcial`, `Bênçãos e Lapidação` e `Pactos`.* **O índice de verdade é o sumário do PDF.**
+
+**Decisão do Mizuki na v0.102, e ela era o índice a seguir.**
 
 *O rascunho da v0.97 inventou o próprio índice, com oito capítulos, e deixou de fora onze que o jogador precisa. O efeito está medido no PDF que ele produziu: a palavra `Perícia` aparece 35 vezes, `Descanso` 34, `Refino` 15 e `Exaustão` 4 — e nenhum capítulo diz o que qualquer uma delas é.*
 
@@ -49,10 +51,9 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 |---|---|---|
 | | **PARTE 1 — O JOGO** | |
 | 1 | Atributos, acerto, defesa, `Bloquear`, vida e energia | `regra/01` · `regra/02` · `regra/23` |
-| 4 | Dano, condições, cobertura e **dano de alma** | `regra/19` · `regra/24` |
 | 2 | O turno, a iniciativa e as doze Ações | `regra/03` · `regra/05` |
 | 3 | Perícias, ofícios e testes | `regra/04` · `regra/07` |
-| 4 | Dano, condições e cobertura | `regra/19` |
+| 4 | Dano, condições, cobertura e **dano de alma** | `regra/19` · `regra/24` |
 | 5 | Descanso e recuperação | `regra/10` |
 | | **PARTE 2 — O PERSONAGEM** | |
 | 6 | Criação de personagem, em oito passos | `regra/08` |
@@ -74,9 +75,11 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 
 **A compressão real é de 14%:** as 112 mil palavras de peça e desenho que o rascunho publicou viraram 62 páginas. Os onze capítulos que faltam somam 52 mil palavras de fonte, então saem **28 a 38 páginas**.
 
-**O livro fechou em 230 páginas** — a estimativa de 140 daqui era de antes de existir texto de
-verdade. Está em `livro/Projeto-M-Manual-da-Guilda.pdf`, com quick-start, glossário e índice
-remissivo, nenhum deles previstos nesta estimativa original.
+**O livro passou de longe da estimativa de 140 daqui**, que era de antes de existir texto de
+verdade — e ele ganhou quick-start, glossário e índice remissivo, nenhum deles previsto nela.
+Está em `livro/Projeto-M-Manual-da-Guilda.pdf`. *A paginação de hoje está na linha do recorte,
+no topo deste arquivo: **este parágrafo publicava a dele**, e as duas divergiram por doze
+versões.*
 
 > ### ⚠ Dois defeitos de pipeline do rascunho, para não repetir
 >
