@@ -2,7 +2,7 @@
 
 Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Recorte da v0.170.** Manual do Fundamento na **v7.17**, e o Manual da Guilda em **18 capítulos**, 251 páginas.
+**Recorte da v0.171.** Manual do Fundamento na **v7.17**, e o Manual da Guilda em **18 capítulos**, 256 páginas.
 
 > ## Este repositório é ARTEFATO, e não fonte
 >
