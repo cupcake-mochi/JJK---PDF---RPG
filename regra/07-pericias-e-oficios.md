@@ -203,7 +203,7 @@ As duas fixas são a assinatura do Caminho — o que qualquer um daquele Caminho
 
 Sem mudança desde a peça 4: **a Origem treina um, o Caminho treina outro.** Dois de quatro, e treinado vale **maestria** — a mesma marca de treino da perícia e do ofício. *Isso mudou na v0.117, e o motivo está na peça 4, seção 1: a CD de um Teste de Resistência passou a crescer `+6`, então o treino tem de crescer junto. **O que fica para trás é o TR que você não treinou, e isso é o preço.***
 
-## 7. Por que vinte e três, e por que quatro livres
+## 7. Por que vinte e três, e por que cinco livres
 
 A lista antiga tinha catorze, e ela não aguentava um Caminho generoso.
 
@@ -244,7 +244,7 @@ Três perícias antigas foram partidas em duas: **Ocultismo** perdeu o lado sagr
 
 - ~~**Se a perícia livre da Origem devia ser da lista também.**~~ **Fechado na v0.104, na peça 9 §2:** ela continua livre e perdeu a aprovação do mestre; a trava passou a ser *não pode ser uma das seis que o seu Caminho te deu*. ***O `8 de 23` do §6 já supunha isso*** — com repetição a ficha teria `7 de 23`, que são `30%` e não os `35%` em que o §7 apoia o argumento inteiro de por que são vinte e três perícias.
 - **Intuição é a única que fica em cima do muro.** "Ler a pessoa" tem cara de perceber, e ela está em Inteligência como dedução. Se em mesa as pessoas rolarem Percepção quando deviam rolar Intuição, ela muda de casa.
-- **Se quatro livres é escolha demais.** Ela deixa o Caminho quase invisível na ficha de perícia. Medir se as pessoas do mesmo Caminho ainda parecem coisas diferentes — e se parecem *demais*.
+- **Se cinco livres é escolha demais.** *Eram quatro até a v0.211, e a quinta entrou junto com a troca por treino de arma.* Ela deixa o Caminho quase invisível na ficha de perícia. Medir se as pessoas do mesmo Caminho ainda parecem coisas diferentes — e se parecem *demais*.
 - **Se Pontaria se sobrepõe à rolagem de ataque à distância.** As duas são Destreza e as duas acertam alvo. Se ninguém rolar Pontaria, ela sai.
 - **Provocar e Intimidação vão brigar?** Uma faz recuar, a outra faz avançar. A distinção é clara escrita e vaga na mesa.
 - ~~**Se o extra da Origem é escolha de igual para igual.**~~ ***FECHADO na v0.211, e não pela resposta:*** *o extra deixou de existir.* **A Origem parou de dar ofício, o Caminho passou a dar cinco perícias à escolha em vez de quatro, e o ofício ficou com um dono só.** *A pergunta media a equivalência entre duas coisas que não são equivalentes — perícia sem treino se rola, ofício sem treino não —, e a saída foi tirar a escolha em vez de preçá-la.*
