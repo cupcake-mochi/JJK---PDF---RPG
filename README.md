@@ -2,7 +2,7 @@
 
 Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Recorte da v0.269.** Manual do Fundamento na **v7.38**, e o Manual da Guilda em **19 capítulos**, 263 páginas.
+**Recorte da v0.270.** Manual do Fundamento na **v7.38**, e o Manual da Guilda em **18 capítulos**, 280 páginas.
 
 > ## Este repositório é ARTEFATO, e não fonte
 >
@@ -21,9 +21,10 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 |---|---|
 | `regra/` | as **vinte e sete peças** de mecânica, na ordem numérica |
 | `desenho/` | o que **ainda não virou peça**: as Trilhas, os degraus de Caminho, as Manhas, a lista de gatilhos, o esqueleto e a regra opcional do `Bloquear` |
+| `caminhos/` | **a coleção v0.4 dos Caminhos** — o texto do Bastião, da Vanguarda, do Emanador e do Guia e das doze Trilhas, que é o do livro desde a v0.270. *Sem preço medido: o preço de `desenho/` e o índice da `regra/17` são da coleção anterior* |
 | `manual/` | o **Fundamento** — o subsistema de técnica e feitiço, fechado e validado. `.docx` e `.pdf` na **v7.38** |
 | `ficha/` | a ficha em branco e uma ficha de exemplo preenchida, nível 2 |
-| `livro/` | **o Manual da Guilda inteiro** — o texto de mesa que a v0.102 decidiu escrever direto no PDF, em **19 capítulos**. `.pdf` e `.docx` de revisão. *A paginação está na linha do recorte, lá em cima, e só lá* |
+| `livro/` | **o Manual da Guilda inteiro** — o texto de mesa que a v0.102 decidiu escrever direto no PDF, em **18 capítulos**. `.pdf` e `.docx` de revisão. *A paginação está na linha do recorte, lá em cima, e só lá* |
 
 > ## Um arquivo de `desenho/` não é desenho, e ele entrou na v0.98
 >
@@ -34,6 +35,8 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 > *O nome do arquivo velho não é citado aqui de propósito: a checagem 7.2 procura ponteiro por **texto**, e não distingue "abra este arquivo" de "este arquivo deixou de existir".*
 >
 > **Os dois vieram porque a entrega apontava para eles e não os carregava.** *Até a v0.97 eram 19 ponteiros pendurados; agora a checagem 7 do `conferir-repositorio.py` acusa se voltar a acontecer.* **Hoje sobrou um: o `arquitetura.md`.**
+
+> **⚠ Desde a v0.270 o texto dos quatro Caminhos é o de `caminhos/`, e não o de `desenho/`.** *O Mizuki refez as habilidades base e as Trilhas do Bastião, da Vanguarda, do Emanador e do Guia na coleção v0.4, e ela entrou no livro sem medir. A `regra/17` e os três `DESENHO-*.md` ficaram como o registro com preço da coleção anterior, e o Evocador e as Invocações saíram da edição jogável até o subsistema fechar.* **O que esta página diz sobre Trilhas, Manhas e o Evocador daqui para baixo é dessa coleção anterior.**
 
 > **Comece pela peça 17.** Ela é o índice das **102 entradas** que um personagem pode ganhar — 68 entregas de Trilha, 20 degraus de Caminho e as 14 Manhas — e diz, de cada uma, **como ela se chama e em qual arquivo de `desenho/` o texto dela mora.** *Ela não repete preço nem texto de mesa: para isso, ela te manda para o desenho.* **É o mapa mais curto que existe deste material.**
 
