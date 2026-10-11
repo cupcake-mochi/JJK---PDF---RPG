@@ -64,7 +64,7 @@ Um turno contém quatro recursos, e eles são independentes:
 | **Concentração** | o efeito que já está no ar | **Vigor** | o efeito cai |
 | **Carregar** | o feitiço que ainda não saiu | **Espírito** | o feitiço, e o que você pagou por ele |
 
-A Passiva **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as letras — *"não perde concentração nem carga por dano de 10 ou menos"* —, porque com a divisão o nome dela sozinho não alcançava mais o Carregar.
+O Talento **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as letras — *"não perde concentração nem carga por dano de 10 ou menos"* —, porque com a divisão o nome dele sozinho não alcançava mais o Carregar.
 
 ### A CD de quem te feriu — v0.253
 
@@ -210,7 +210,7 @@ A Passiva **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as le
 
 **Não existe teto de soma com o `Acúmulo` e o `Remate`, e é por conta:** *o `Alvo de Caça` soma `2,5` fixos no feitiço seguinte contra o alvo marcado (`5,6%` da Rotina na Classe `3`, `2,3%` na `7`) e `5,0` nos dois ataques do físico (`11%` na `3`, `4,6%` na `7`) — pequeno demais para mover o que o `Acúmulo` já faz sozinho.* **O que passa do teto de um alvo ali é o `Acúmulo`, e ele passa antes desta Melhoria existir** — *está registrado como problema de design aberto no `ESTADO-ATUAL.md`.*
 
-**E o invariante da peça 11 segue com folga:** *a rodada de golpe fica abaixo da Rotina. O golpe simples vai de `51,6%` para `58,3%` no nível `7` (`62,5%` com `1d8`) e de `47,2%` para `49,5%` no `30` (`51,3%`).*
+**E o invariante da peça 11 segue com folga:** *a rodada de golpe fica abaixo da Rotina. O golpe simples vai de `67,7%` para `74,4%` no nível `7` (`78,6%` com `1d8`) e de `47,2%` para `49,5%` no `30` (`51,3%`).* *(v0.340: a base do nível `7` era `51,6%`, antes de a escada do dano na arma começar no refino `1`; os acréscimos do `Alvo de Caça` são os mesmos, e o nível `30` não mudou.)*
 
 ## 3.1 A lista de ações
 
@@ -256,9 +256,9 @@ A Passiva **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as le
 
 *Por que a Ação de Movimento e não a Bônus:* **a Bônus já disputa com `Ímpeto` e `Campo`**, duas das doze Bênçãos, e com o que os Caminhos entregam. *A de Movimento é o único dos quatro slots que ninguém compra por habilidade, então cobrar dela não desliga kit de ninguém — ela cobra posição, que é o recurso que o combate deste sistema já usa.*
 
-> **E isso é o degrau que uma Passiva pode comprar.** *Decisão do Mizuki:* **uma Passiva ou aptidão pode dizer que o segundo saque sai de graça, e ela cabe na Classe Passiva 1** — *"efeito pequeno, condicional, ou de informação"*, pela peça 11 §4. *A `Descarga` da Vanguarda e a `Fiel` da peça 16 já vivem nessa vizinhança.*
+> **E isso é o degrau que um Talento pode comprar.** *Decisão do Mizuki:* **um Talento ou aptidão pode dizer que o segundo saque sai de graça, e cabe na Categoria de Efeito 1** — *"efeito pequeno, condicional, ou de informação"*, pela peça 11 §4. *A `Descarga` da Vanguarda e a `Fiel` da peça 16 já vivem nessa vizinhança.*
 >
-> **✔ E esse degrau ganhou o primeiro exemplar na v0.134: o `Bocado`, na peça 20 §3.3.** *Ele guarda o que você carrega dentro do corpo, e é por isso que o segundo saque sai de graça — a mão não vai à bainha, vai a você.* **Classe Passiva 1, exatamente como esta linha previu.**
+> **✔ E esse degrau ganhou o primeiro exemplar na v0.134: o `Bocado`, na peça 20 §3.3.** *Ele guarda o que você carrega dentro do corpo, e é por isso que o segundo saque sai de graça — a mão não vai à bainha, vai a você.* **Categoria de Efeito 1, exatamente como esta linha previu.**
 
 ### Isso decide contra quem o `Desarmado` foi preçado — fechado na v0.188
 
@@ -302,6 +302,23 @@ A Passiva **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as le
 - **O `Mão na Roda` do Guia, no nível 7, passa a ser exceção de uma coisa que existe:** ele torna o `Ajudar` uma Ação Bônus para aquele Caminho. *Antes ele era exceção de uma regra não escrita.*
 - **`Preparar` é o quinto competidor pela Reação**, e a seção 7 desta peça já desconfiava do slot com quatro. *Fica marcado para o playtest, junto da pergunta que já estava lá.*
 
+
+### O que o R41 escreve sobre o turno e esta peça não dizia — v0.348
+
+*Migração do capítulo de Regras gerais do R41 (passo 5b do `PLANO.md`).* **Nenhum número desta peça mudou:** *a iniciativa, as ações, o `Provocar`, o `Ler o Ambiente` e a CD de quem te feriu são os mesmos no livro.* **O que o livro fez foi fechar as perguntas que a mesa faria:**
+
+- **`Ajudar` tem prazo.** *A vantagem acaba no começo do seu próximo turno, se não for usada antes; fora de combate ela acompanha uma tentativa concreta, e não se guarda para outra sala. Um ajudante por teste ou ataque (GER07).*
+- **`Ajudar` num ataque pede posição.** *Você escolhe um inimigo ao seu alcance corpo a corpo e um aliado; o inimigo precisa perceber a intervenção, e o aliado não precisa estar ao seu lado. A ajuda se gasta na rolagem escolhida, acertando ou errando (GER08). Se a contribuição exigir ofício, ferramenta, idioma ou sentido, quem ajuda cumpre o requisito.*
+- **O total do `Provocar` é a CD, e o empate resiste.** *O alvo faz o TR de Espírito contra o total da sua rolagem e resiste se igualar (GER10). Ele precisa perceber a provocação e conseguir compreendê-la; várias provocações guardam cada uma o seu prazo, e as vantagens e desvantagens seguem o cancelamento comum (GER11).*
+- **`Ler o Ambiente` sem nada a informar não gasta a ação nem o uso** *(GER12).*
+- **`Influenciar` em combate custa a Ação Padrão,** *com Essência e a perícia social adequada; o mestre diz se é possível e a CD antes da rolagem.*
+- **A conversão de ações vai em cadeia e só num sentido.** *Padrão vira Bônus, e essa Bônus pode virar Movimento; só se converte ação que ainda não foi gasta, e a conversão não renova limite de uso.*
+- **Uma tarefa que gasta a Ação de Movimento inteira não divide a ação com andar** *(a segunda manipulação de item, por exemplo).*
+- **O ataque de oportunidade pede acompanhar a saída** *por visão ou por um sentido equivalente, e resolve antes de a criatura sair (GER16).* **Queda, teleporte e movimento imposto por outra criatura não provocam;** *andar com o próprio movimento, mesmo por ordem de alguém, pode provocar (GER17).*
+- **Um TR de concentração por golpe ou aplicação de dano.** *Dois tipos de dano no mesmo golpe são uma aplicação só (GER18). Dano reduzido a zero pelas defesas não pede teste; dano absorvido pela vida temporária pede. `Inconsciente` encerra a concentração, e a `Guarda Aberta` sozinha não (GER19).*
+- **Um corpo inconsciente ou imóvel pode ser atravessado** *quando houver passagem física, com custo de terreno difícil; a `Guarda Aberta` não libera passagem (GER21).*
+
+**O que o capítulo tem e peça nenhuma tem:** *saltos, quedas e queda sobre criatura, rastejar e passagens estreitas, voo, espaço e tamanho das criaturas, distância em três eixos, combate montado, esconder, vasculhar, ataques e ocultação, `Estudar` e a percepção de energia (a busca de `18 m`).* **O dono dessas regras é o livro,** *como já era na v0.331. Nada delas foi copiado para cá.*
 
 ## 4. A régua de preço
 
@@ -416,7 +433,7 @@ O Fundamento já tem, e ela é a regra de ouro nº 6:
 ## 7. O que esta peça deixa em aberto
 
 - **Se ação bônus deve existir mesmo.** Ela é a mais herdada das quatro, e a que mais custa em tempo de mesa: todo turno, todo jogador pergunta "tenho alguma coisa de ação bônus?". Duas peças do Fundamento dependem dela (Rápido e Parado). Vale medir no playtest quantos turnos realmente usam uma.
-- **Quantas reações por rodada.** Uma é o padrão, e quatro coisas competem por ela: ataque de oportunidade, a Melhoria Reação e as Passivas Contramedida e Reforço. Competir é bom — vira escolha. Mas se na prática ninguém nunca tiver reação sobrando, as Passivas de reação ficam mortas.
+- **Quantas reações por rodada.** Uma é o padrão, e quatro coisas competem por ela: ataque de oportunidade, a Melhoria Reação e os Talentos Contramedida e Reforço. Competir é bom — vira escolha. Mas se na prática ninguém nunca tiver reação sobrando, os Talentos de reação ficam mortos.
 - **O valor real de Adianta** (seção 5). Entre 4 e 7 pontos percentuais de efeito médio, abaixo do que uma Média costuma entregar.
 
 *Resolvido e tirado daqui:* o ataque de oportunidade **é ataque físico, rolado como ataque comum e pago com a Reação** — e um conjurador faz um normalmente, com soco ou arma. Conjurar na Reação continua exigindo a Melhoria Reação. A conta está na peça 4, seção 6.

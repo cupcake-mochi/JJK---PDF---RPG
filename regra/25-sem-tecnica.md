@@ -27,8 +27,8 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 | **o orçamento** — `4` a `6` de PE por nível, pelo Caminho | v0.116 | peça 6 §5, peça 9 §5 |
 | **que ela mantém energia, aptidões e refino** | v0.39 | peça 9 §4 |
 | **que ela não amplia a conta de Legados** | v0.39 | peça 9 §4, peça 13 §8 |
-| **a `Energia Reversa`** — Classe Passiva 3, refino 7 e nível 14, e ela cura **você** | v0.78 | peça 11 §6 |
-| **o `Domínio Simples`** — Classe Passiva 2, refino 5 ou refino 4 com o voto do iniciante, aptidão pura e sem lâmina | v0.29; o gate, v0.268 | peça 11 §6.5 |
+| **a `Energia Reversa`** — Categoria de Efeito 3, refino 7 e nível 14, e ela cura **você** | v0.78 | peça 11 §6 |
+| **o `Domínio Simples`** — Categoria de Efeito 2, refino 5 ou refino 4 com o voto do iniciante, aptidão pura e sem lâmina | v0.29; o gate, v0.268 | peça 11 §6.5 |
 
 **Nada disso se reabre aqui.** *Esta peça é a que mais chegou com contrato assinado por outras, e a lista existe para ninguém tentar.*
 
@@ -45,7 +45,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 | **feitiço** | **`Manejo`** |
 | Liberação Máxima | **igual** — §3.1 |
 | **Técnica Máxima** | **`Auge`** |
-| Passiva Livre e Passivas pagas | **igual** |
+| Expressão da técnica e Talentos pagos | **igual** |
 | Classe 0 | **igual**, de `0` a `7` |
 | Expansão de Domínio | **não existe nesta rota** — §3.2 |
 | aptidões e refino | **iguais**, e ela começa com uma já aberta — §4 |
@@ -88,24 +88,24 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 > **Ela não gasta marco.** O primeiro marco continua sendo o do nível 6, e ele compra o que sempre comprou.
 > **Ela conta na sua lista de aptidões.** Não é uma vaga a mais: é a primeira.
 
-### 4.1 Por que só Classe Passiva 2 e 3, e o número não foi escolhido
+### 4.1 Por que só Categoria de Efeito 2 e 3, e o número não foi escolhido
 
 **A semente não é compra livre do catálogo, e a conta é o motivo.** *O gate padrão de cada altura já está escrito na peça 11 §5, e ele produz sozinho quanto cada semente adianta:*
 
-| Classe Passiva | gate padrão | quantos níveis a semente adianta, na média das três rotas de marco |
+| Categoria de Efeito | gate padrão | quantos níveis a semente adianta, na média das três rotas de marco |
 |---|---|---|
 | **1** | sem gate | **`4,0`** |
 | **2** | refino 4 · nível 7 | **`9,3`** |
 | **3** | refino 7 · nível 13 | **`17,3`** |
 
-> **Banda `CP 2` e `3`: `9,3` a `17,3`, espalhamento `1,86×` — passa.**
-> **Com a `CP 1` junto: `4,0` a `17,3`, espalhamento `4,33×` — reprova**, contra o filtro de `3,00×` do projeto.
+> **Banda `CE 2` e `3`: `9,3` a `17,3`, espalhamento `1,86×` — passa.**
+> **Com a `CE 1` junto: `4,0` a `17,3`, espalhamento `4,33×` — reprova**, contra o filtro de `3,00×` do projeto.
 
-**Não é teto que alguém escolheu: a escada de gate É a escada de Classe Passiva**, então a antecipação de uma semente é decidida pela altura dela. *`"Só Classe Passiva 2 e 3"` é o que a escada que já existe produz quando se pergunta quais sementes passam no filtro.*
+**Não é teto que alguém escolheu: a escada de gate É a escada de Categoria de Efeito**, então a antecipação de uma semente é decidida pela altura dela. *`"Só Categoria de Efeito 2 e 3"` é o que a escada que já existe produz quando se pergunta quais sementes passam no filtro.*
 
 ### 4.2 As quatro portas
 
-| a porta | a semente | Classe Passiva | adianta |
+| a porta | a semente | Categoria de Efeito | adianta |
 |---|---|---|---|
 | **a Nova Sombra** | **`Domínio Simples`** | 2 | `9,3` níveis |
 | **a rota da Shoko** | **`Energia Reversa`** | 3 | `17,3` níveis |
@@ -114,9 +114,9 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 > ***Decisão do Mizuki na v0.190: a `Pétala` vira porta.*** *Ela já estava medida e declarada como quarta porta não escrita desde a v0.168 — cabia na banda, e o que faltava era escolha de sabor.* *O texto da porta está no §4.3, e o exemplo é o `Espinho`, no §9.* ~~**⚠ A tabela acima é a decisão; o texto da porta e o exemplo dela ainda não estão escritos**~~ ***FECHADO:*** *esta linha envelheceu quando o §4.3 e o `Espinho` entraram, e foi achada na v0.272.*
 
-> **A semente `Domínio Simples` nasce com o voto do iniciante** — *peça 11 §6.5, desde a v0.268: ele fica no ponto em que você o ergueu, e se os seus dois pés saírem desse ponto ele se desfaz.* **Você larga o voto quando o seu refino chega a 5** — *sem escolher Refino, no nível 18.* *Com o voto, o gate dele é o da Classe Passiva 2 (refino 4), e a antecipação continua `9,3` níveis. É a Miwa, e a `Redoma` do §9 já é escrita assim.*
+> **A semente `Domínio Simples` nasce com o voto do iniciante** — *peça 11 §6.5, desde a v0.268: ele fica no ponto em que você o ergueu, e se os seus dois pés saírem desse ponto ele se desfaz.* **Você larga o voto quando o seu refino chega a 5** — *sem escolher Refino, no nível 18.* *Com o voto, o gate dele é o da Categoria de Efeito 2 (refino 4), e a antecipação continua `9,3` níveis. É a Miwa, e a `Redoma` do §9 já é escrita assim.*
 
-**A terceira não é escapatória, e ela não vira a melhor.** *A peça 11 §6.7 já trava a `Aptidão Própria` em `Classe Passiva 1 ou 2, nunca 3`, e a §6.7 também escreve o desempate: **na dúvida, Pesada — e Pesada é Classe Passiva 3, que ela não alcança**, então dúvida reprova a proposta.* **Ela cai no piso da banda por regra que já existia, sem uma linha nova.**
+**A terceira não é escapatória, e ela não vira a melhor.** *A peça 11 §6.7 já trava a `Aptidão Própria` em `Categoria de Efeito 1 ou 2, nunca 3`, e a §6.7 também escreve o desempate: **na dúvida, Pesada — e Pesada é Categoria de Efeito 3, que ela não alcança**, então dúvida reprova a proposta.* **Ela cai no piso da banda por regra que já existia, sem uma linha nova.**
 
 > **É por ela que a mecânica de base entra.** *Quem não quer nenhuma das duas do catálogo escreve a própria em cima do que o sistema já tem — a Classe, a arma, a proteção, o que for.* **O que ela não pode é repetir uma das doze pagas com outro nome**, e essa trava também é da §6.7.
 
@@ -124,7 +124,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 **A `Pétala` cobre o seu corpo de energia e rebate o que toca.** *Contra o Acerto de uma Expansão ela anula ou reduz pela Essência contra a do dono, cai com os golpes em você, e com arma empunhada contra-ataca quem te acertou — a regra é da peça 11 §6.5, reescrita na v0.272, e nada dela é desta peça.*
 
-**Ela cabe na banda exata do `Domínio Simples`:** Classe Passiva 2, `9,3` níveis de antecipação. *As duas são a mesma altura, e a escada de gate é quem decide isso — não teve escolha de número aqui.*
+**Ela cabe na banda exata do `Domínio Simples`:** Categoria de Efeito 2, `9,3` níveis de antecipação. *As duas são a mesma altura, e a escada de gate é quem decide isso — não teve escolha de número aqui.*
 
 **O que separa as duas é o eixo, e ele já estava escrito:** *uma cobre um raio de chão, e a outra cobre um corpo.* **Quem entra pelo `Domínio Simples` compra espaço; quem entra pela `Pétala` compra a própria pele.**
 
@@ -148,9 +148,9 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 >
 > ***⚠ Nenhuma aptidão nova foi criada para isso, e a versão anterior desta seção previa uma.*** *A `Soltura` existiria só para destravar o alcance ofensivo — e o alcance já tem dono na `Sutura`.* **Inventar entrada para tapar buraco que já tem dono é o defeito que a régua do `Desliga` reprovou quatro vezes neste projeto.** *Achado do Mizuki lendo a proposta.*
 
-**A `Extensão de Domínio` foi recusada por decisão do Mizuki**, e ela caberia na banda. *Ela é `Classe Passiva 3` como a `Energia Reversa`.*
+**A `Extensão de Domínio` foi recusada por decisão do Mizuki**, e ela caberia na banda. *Ela é `Categoria de Efeito 3` como a `Energia Reversa`.*
 
-> **E as três de `kokusen` estão fora pelo mesmo motivo que a `Cesta Oca` e as duas barreiras:** *ou elas são `Classe Passiva 1` e quebram a banda, ou não dá para escrever uma técnica inteira em cima delas.* **`Kokusen` é um multiplicador que pega carona no crítico de outra coisa; `Cesta Oca` desliga o seu turno; as barreiras levam um minuto para subir.** *Nenhuma das três é motor.*
+> **E as três de `kokusen` estão fora pelo mesmo motivo que a `Cesta Oca` e as duas barreiras:** *ou elas são `Categoria de Efeito 1` e quebram a banda, ou não dá para escrever uma técnica inteira em cima delas.* **`Kokusen` é um multiplicador que pega carona no crítico de outra coisa; `Cesta Oca` desliga o seu turno; as barreiras levam um minuto para subir.** *Nenhuma das três é motor.*
 >
 > **⚠ Isso não fecha a porta do tema.** *A semente é o **motor**, não o assunto.* **Quem quer uma ficha de barreiras escreve os `Manejos` dela em cima do `Domínio Simples`** — e o material concorda, porque o Kusakabe treinou o Yuji em manipulação de energia, técnicas de barreira e Domínio Simples, os três juntos.
 
@@ -169,15 +169,15 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 **A `Energia Reversa` da peça 11 §6 cura `1d8` por PE gasto, até `maior Classe` de PE, e ela cura VOCÊ.** *Isso não muda aqui.*
 
-> **O que muda: quem tem a semente `Energia Reversa` soma `1/3 do refino` em toda rolagem de cura sua.**
+> **O que muda: quem tem a semente `Energia Reversa` soma `1/3 do refino` em toda rolagem de cura sua, uma vez ao total, e `+4` no refino `10`.**
 
-**O divisor não é escolha nova.** *`1/3 do refino` é o mesmo da `cobrir-se` da peça 11 §6, e o motivo escrito lá é que ele cresce de `0` a `3` na campanha — exatamente o que um atributo cresce.*
+**O divisor não é escolha nova.** *`1/3 do refino` é o mesmo da `cobrir-se` da peça 11 §6, e o motivo escrito lá é que ele cresce de `0` a `3` na campanha — exatamente o que um atributo cresce.* ***v0.340: o refino `10` dá `+4` e não `+3`*** *(R10-08): a candidata e o livro escrevem a tabela `+0, +1, +2, +3, +4` por faixa de refino (`1–2`, `3–5`, `6–8`, `9`, `10`), e a peça escrevia só `1/3`. A medida acima foi refeita com o `+4`: `0,39` fatia, `0,67×` o `Pulso`, ainda abaixo da entrega de Trilha que espelha. O bônus entra uma vez no total da cura, nunca por dado, e não vale ao curar um aliado nem no dano de Energia Reversa contra maldição.*
 
 **Medido na régua que a própria `Sutura` usa** — *`(cura por uso) × 50% ÷ 5,08`, que reproduz os `0,89` da `Agulha` e os `0,59` do `Pulso` exatos*:
 
 | | no refino 10 | fatias | contra o `Pulso`, que é entrega de nível 19 de Trilha |
 |---|---|---|---|
-| **`+ 1/3 do refino`** | `+3` | **`0,30`** | **`0,50×`** |
+| **`+ 1/3 do refino`, e `+4` no refino `10`** | `+4` | **`0,39`** | **`0,67×`** |
 | *`+ refino` cheio, medido e recusado* | `+10` | `0,98` | `1,67×` |
 
 > **E ela mora AQUI e não na `Sutura`, e isso é a peça 9 §1 decidindo.** *Aquela seção diz, sobre por que a Origem não dá atributo: "amarrar número à origem criaria **a origem certa para cada montagem**".* **Pendurar o buff na Trilha do Guia faria `Sem Técnica` virar a Origem certa para todo `Sutura`.** *Na máquina da rota, ele vale para quem tem a semente, tenha pegado `Sutura` ou não — e quem pegar as duas empilha, como qualquer um empilha Trilha.*
@@ -192,7 +192,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 > **O que a v0.171 pôs no lugar é o empate, medido na faixa inteira da aptidão.** *Com o teto na `maior Classe`, a cura cobre de `101%` a `88%` do que uma rodada tira de você, do nível 14 ao 30; com o teto no refino, ela sai em `177%` no nível em que o gate abre e nunca volta a empatar.* **A `maior Classe` cresce `1,75×` contra os `2,02×` do golpe de chefe, e o refino cresce `1,43×` e para no marco 22** — a Classe é o único dos dois que acompanha o nível.
 
-*E medido, o `+1/3 do refino` não deriva para cima:* **contra o golpe do chefe ele vai de `20,0%` no nível 10 para `13,9%` no 30.** *É o lado seguro, o mesmo do `projetar energia`.*
+*E medido, o `+1/3 do refino` não deriva para cima:* **contra o golpe do chefe ele vai de `20,0%` no nível 10 para `13,9%` no 30.** *É o lado seguro.*
 
 ## 7. O vão, medido — e é por isso que a máquina é o Fundamento e não outra coisa
 
@@ -200,12 +200,12 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 | nível | Rotina | a rodada dela | % da Rotina |
 |---|---|---|---|
-| 2 | 13 | `5,5` | 42,3% |
-| **7** | 31 | `16,0` | **51,6%** — o melhor nível dela |
-| 14 | 63 | `25,0` | 39,7% |
+| 2 | 13 | `8,0` | 61,5% |
+| **7** | 31 | `21,0` | **67,7%** — o melhor nível dela, do `7` ao `9` |
+| 14 | 63 | `30,0` | 47,6% |
 | **30** | 108 | **`51,0`** | **47,2%** |
 
-**Faixa da campanha inteira: `17,7%` a `51,6%` da Rotina.** *Os dois números do nível 30 reproduzem o que a peça 11 §6.9 já publica.*
+**Faixa da campanha inteira: `33,9%` a `67,7%` da Rotina.** *Os dois números do nível 30 reproduzem o que a peça 11 §6.9 já publica.* *(v0.340: a escada do dano na arma passou a ser a do livro, com `1d4` já no refino `1`, e os níveis `2`, `7` e `14` foram refeitos pela conta do `conferir-aptidoes` §10. A faixa antiga, `17,7%` a `51,6%`, tinha um piso que a mesma conta não reproduz, `25,8%` com a escada antiga.)*
 
 **Mas o vão que importa é o do DIA, e ele é menos da metade do vão do pico** — porque o feiticeiro também não conjura toda rodada:
 
@@ -251,7 +251,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 ## 9. Três exemplos, um de cada porta nomeada
 
-**Eles param onde a criação para** — semente, Descrição, Regra, Famílias e Passiva. *O `Auge` não aparece porque ele só chega no nível 17.*
+**Eles param onde a criação para** — semente, Descrição, Regra, Famílias e Talento. *O `Auge` não aparece porque ele só chega no nível 17.*
 
 ### Redoma — a Nova Sombra
 
@@ -262,7 +262,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 | **Regra** | *"O meu domínio não me protege: ele prende quem entrou junto."* |
 | **Livres** | Controle · Auxiliares |
 | **Fechadas** | Área · Alcance · Amparo |
-| **Passiva** | `Raiz` (Classe Passiva 1): você não é movido à força nem derrubado contra a sua vontade |
+| **Talento** | `Raiz` (Categoria de Efeito 1): você não é movido à força nem derrubado contra a sua vontade |
 
 *As duas Livres caem da Regra:* **`Controle` é prender, e `Auxiliares` é o que ela faz com quem está preso** — vantagem, Defesa, CD e deslocamento são as quatro coisas daquela Família. **E as três Fechadas caem da semente:** *um domínio de raio pequeno em volta de você não tem alcance nem área para comprar, e ele prende em vez de socorrer.*
 
@@ -275,7 +275,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 | **Regra** | *"Eu reverto energia no que já está quebrado, e não no que está inteiro."* |
 | **Livres** | Amparo · Auxiliares |
 | **Fechadas** | Área · Castigo · Marca |
-| **Passiva** | `Recomposição` (Classe Passiva 2), do manual |
+| **Talento** | `Recomposição` (Categoria de Efeito 2), do manual |
 
 > **⚠ Este exemplo carrega uma decisão, e ela vale estar escrita: um Fundamento pode não causar dano nenhum.** *O manual já permite — a Forma `Apoio` não causa, e a `Efeito` também não — mas nenhum dos três Fundamentos prontos dele mostra isso.* **Uma rota cuja porta mais famosa é uma médica precisava do exemplar.**
 
@@ -292,7 +292,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 | **Regra** | *"O que encosta em mim volta em quem mandou, e só o que é energia."* |
 | **Livres** | `Tempo` · `Castigo` |
 | **Fechadas** | `Alcance` · `Área` · `Marca` |
-| **Passiva** | `Instinto` (Classe Passiva 1): você não é pego de surpresa enquanto estiver acordado |
+| **Talento** | `Instinto` (Categoria de Efeito 1): você não é pego de surpresa enquanto estiver acordado |
 
 *As duas Livres caem da Regra:* **`Tempo` é a Família da reação, e devolver golpe é reagir**; **`Castigo` é fazer o dano render mais**, que é o que a devolução faz com o golpe alheio. **E as três Fechadas caem da semente:** *a energia mora no corpo dela, então `Alcance` não tem para onde ir; ela cobre um corpo e não um espaço, então `Área` não pega ninguém; e ela responde em vez de preparar, então `Marca` não tem próximo golpe para armar.*
 
@@ -300,7 +300,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 ## 10. O que o validador confere
 
-O `conferir-sem-tecnica.py` roda **treze checagens**, e nenhum valor de regra fica escrito dentro dele: orçamento, fatia, Rotina, curva de refino, gate e escada de Classe Passiva saem dos documentos donos. *A 13, da v0.248, confere que os renomes também valem no capítulo do livro, e não só aqui.*
+O `conferir-sem-tecnica.py` roda **treze checagens**, e nenhum valor de regra fica escrito dentro dele: orçamento, fatia, Rotina, curva de refino, gate e escada de Categoria de Efeito saem dos documentos donos. *A 13, da v0.248, confere que os renomes também valem no capítulo do livro, e não só aqui.*
 
 | # | o que ela confere | de onde ela lê | o teste negativo |
 |---|---|---|---|
@@ -308,9 +308,9 @@ O `conferir-sem-tecnica.py` roda **treze checagens**, e nenhum valor de regra fi
 | 2 | a máquina não tem número próprio nenhum | manual, via peça 11 | um `d8` ou um preço escrito aqui acende |
 | 3 | os dois renomes existem e o original sumiu desta rota | esta peça §3.1 | `feitiço` ou `Técnica Máxima` vivo aqui acende |
 | 4 | a `Liberação Máxima` NÃO renomeia, e o motivo está escrito | peça 20 §3.1 | renomear sem escrever a diferença acende |
-| 5 | a banda da semente é `Classe Passiva 2` e `3`, e ela é DERIVADA da escada | peça 11 §5 | uma semente `CP 1` acende `4,33×` |
+| 5 | a banda da semente é `Categoria de Efeito 2` e `3`, e ela é DERIVADA da escada | peça 11 §5 | uma semente `CE 1` acende `4,33×` |
 | 6 | as sementes nomeadas caem na banda, e o espalhamento passa no filtro | peça 11 §5 · peça 17 | semente fora da banda acende |
-| 7 | a `Aptidão Própria` continua travada em `CP 1 ou 2` | peça 11 §6.7 | soltar a trava acende |
+| 7 | a `Aptidão Própria` continua travada em `CE 1 ou 2` | peça 11 §6.7 | soltar a trava acende |
 | 8 | a semente não gasta marco, e a contagem de aptidões da rota pura não se move | peça 11 §3 | cobrar marco acende a queda de `10` para `9` |
 | 9 | o buff de cura é `1/3 do refino` e reconstrói do divisor da `cobrir-se` | peça 11 §6 · `DESENHO-trilhas.md` | outro divisor acende contra o `Pulso` |
 | 10 | curar os outros **pela aptidão** continua sendo da `Sutura`, no nível 11 dela | `DESENHO-trilhas.md` | a semente curando terceiro na criação acende |
@@ -334,3 +334,13 @@ O `conferir-sem-tecnica.py` roda **treze checagens**, e nenhum valor de regra fi
 - ~~**`Energia Reversa` contra maldição — DECIDIDA na v0.190, e por escrever.**~~ **Escrita na v0.194**, e o dono é o manual: a Forma `Cura` pode escolher alvo hostil, com `50%` a mais, e o requisito é a própria aptidão. *Os três números que este item pedia saíram todos — a base do `50%` está no §4.4, a aptidão de liberação não existe (a `Energia Reversa` é a porta), e o preço é a `Média` da Forma.*
 - **Nenhum `Manejo` publicado.** *Esta peça entrega a máquina e dois Fundamentos de exemplo; ela não abre catálogo de `Manejo` pronto, do mesmo jeito que o manual entrega três Fundamentos prontos e não uma lista fechada de feitiços.*
 - ~~**O texto de mesa.** *Como toda peça de `03-mecanica/`, esta é nota de design.* **O capítulo do livro sai dela.**~~ **Fechado na v0.170:** é o capítulo 11 do livro, logo depois da Técnica Marcial. *O livro foi de `17` para `18` capítulos, e a seção `Sem Técnica` do capítulo de Origens virou ponteiro.*
+
+## 12. O que a candidata escreveu e esta peça ainda não dizia — v0.340
+
+*Migração das Rotas do livro reconstruído (passo 5b do `PLANO.md`), a parte da Sem Técnica.* **O que mudou de número está no §6: o bônus de autocura vai a `+4` no refino `10`.** *O resto é lacuna fechada:*
+
+- **Curar (R10-07, R10-09).** *O `Manejo` de Forma Cura pode curar um aliado disposto a até `9 m`, desde que o Amparo esteja disponível e a cura seja coerente com a semente; a aptidão `Energia Reversa` só envia a terceiros se outra regra permitir. `Energia Reversa` e as curas construídas a partir dela não recuperam o Corpo Amaldiçoado; o reparo é da Origem. Contra maldição, o Manejo usa o procedimento de `Ferir maldições`, e o bônus de autocura não entra nesse dano.*
+- **`Pétala` (R10-06).** *A quarta semente voltou ao livro, com o exemplo `Espinho`: Manejos reativos e próximos do corpo, sem ataque distante independente do contato.*
+- **Sementes (R10-31).** *A semente `Domínio Simples` remete à entrada da aptidão, que tem o voto do iniciante, em vez de repetir o deslocamento e o abandono dele.*
+- **Exemplos (R10-27).** *`Recomposição` (Categoria de Efeito `2`) exige o nível `7` e dois espaços, e os tipos de dano dos exemplos são Cortante, Concussão e Força.*
+- **Vetos e Expressão (R10-26, D18).** *Sem Técnica não aprende nem auxilia `Ritual`. Ela registra a Expressão da técnica, como as outras rotas.*

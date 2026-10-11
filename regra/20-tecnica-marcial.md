@@ -4,7 +4,7 @@
 
 *Fechada na v0.122. Ela estava na fila desde a v0.38, quando o Corpo Amaldiçoado saiu do balde da Restrição Celestial, e destravada desde a v0.48, quando Equipamento fechou. O que a segurava por último era a ferramenta amaldiçoada, que virou a peça 16 na v0.59.*
 
-Três peças escreveram pedaços dela sem que nenhuma soubesse. A peça 16 §2 declarou, com todas as letras, que **o dano por rodada da rota sem energia é desta peça** — *"magnitude, e ela é peça"*. A peça 9 §5 fixou o orçamento dela e disse que só o nome da moeda ficava em aberto. E a peça 11 §6.8 escreveu doze Bênçãos com nome, Classe Passiva e gate, e parou porque o texto de cada uma dependia de saber o que esta rota faz numa rodada.
+Três peças escreveram pedaços dela sem que nenhuma soubesse. A peça 16 §2 declarou, com todas as letras, que **o dano por rodada da rota sem energia é desta peça** — *"magnitude, e ela é peça"*. A peça 9 §5 fixou o orçamento dela e disse que só o nome da moeda ficava em aberto. E a peça 11 §6.8 escreveu doze Bênçãos com nome, Categoria de Efeito e gate, e parou porque o texto de cada uma dependia de saber o que esta rota faz numa rodada.
 
 ---
 
@@ -28,7 +28,7 @@ Esta peça é a que mais chegou com contrato assinado por outras, e vale listar 
 | **o nome da moeda** — `PE`, lido como `Pontos de Esforço` na rota sem energia | v0.120 | peça 9 §5 |
 | **quem entrega ferir maldição** — a ferramenta, e é binário | v0.59 | peça 16 §2 |
 | **quem NÃO tem Expansão de Domínio** — quem não tem energia, nunca. *E o §3.2 estende: nem quem tem* | v0.118 | peça 9 §5 |
-| **o tamanho do catálogo de Bênçãos** — catorze: duas grátis e doze pagas | v0.116 e v0.118 | peça 11 §6.8 |
+| **o tamanho do catálogo de Bênçãos** — dezesseis: duas grátis e catorze pagas (até a v0.343, ~~catorze e doze~~) | v0.116, v0.118 e v0.344 | peça 11 §6.8 |
 
 **O tamanho do orçamento é herdado e não escolhido, e o motivo é uma soma.** A peça 6 §5 mantém `vida + PE por nível` em `10` nos quatro Caminhos e `11` no Bastião, e é essa soma parelha que faz escolher Caminho ser sabor em vez de degrau de poder. O `conferir-atributos.py` falha se ela variar mais que `2`.
 
@@ -47,7 +47,7 @@ Esta peça é a que mais chegou com contrato assinado por outras, e vale listar 
 | **feitiço** | **`Kata`** |
 | **Liberação Máxima** | **`Ruptura`** |
 | **Técnica Máxima** | **`Ōgi`** |
-| Passiva Livre e Passivas pagas | **igual** |
+| Expressão da técnica e Talentos pagos | **igual** |
 | Classe 0 | **igual** |
 | Expansão de Domínio | **não existe nesta peça**, e a negação é dela — §3.2 |
 | aptidões e refino | **Bênçãos e Lapidação**, para o ramo sem energia — peça 11 §6.8 |
@@ -88,29 +88,30 @@ Esta peça é a que mais chegou com contrato assinado por outras, e vale listar 
 
 > **E o Panda não tem domínio na obra**, que é a leitura de fora concordando com a de dentro.
 
-### 3.3 As Passivas ficaram sem exemplo, e uma rota de corpo precisa dos próprios
+### 3.3 Os Talentos ficaram sem exemplo, e uma rota de corpo precisa dos próprios
 
-*Achado do Mizuki na v0.134, lendo a criação: **"não [há] exemplos de passivas na criação de técnica de sem energia"**.* **A tabela do §3 dizia que Passiva Livre e Passivas pagas ficam `igual`, e parou ali.** *"Igual" resolve a máquina e não resolve o exemplo — os do capítulo do Fundamento são todos construídos em cima de energia amaldiçoada, e quem escreve uma rota de corpo não tem em que se espelhar.*
+*Achado do Mizuki na v0.134, lendo a criação: **"não [há] exemplos de passivas na criação de técnica de sem energia"**.* **A tabela do §3 dizia que Expressão da técnica e Talentos pagos ficam `igual`, e parou ali.** *"Igual" resolve a máquina e não resolve o exemplo — os do capítulo do Fundamento são todos construídos em cima de energia amaldiçoada, e quem escreve uma rota de corpo não tem em que se espelhar.*
 
-**A escada não muda:** Classe Passiva `1`, `2` e `3` custam `1`, `2` e `3` espaços de Kata, e o que cabe em cada altura é o que o manual escreve. *A Passiva Livre continua de graça e continua sem número.*
+**A escada não muda:** Categoria de Efeito `1`, `2` e `3` custam `1`, `2` e `3` espaços de Kata, e o que cabe em cada altura é o que o manual escreve. *A Expressão da técnica continua de graça e continua sem número.*
 
 **O que muda é de onde a ficção sai.** *Onde o Fundamento escreve energia, aqui se escreve corpo, treino e ferramenta.*
 
-| Classe Passiva | exemplo | o que ele é |
+| Categoria de Efeito | exemplo | o que ele é |
 |---|---|---|
-| **Livre** | `Calo` | a sua mão reconhece pelo peso qualquer arma que você já empunhou uma vez |
 | **1** | **`Bocado`** | você guarda no corpo o que carrega. *A entrada inteira está abaixo* |
 | **1** | `Raiz` | você não é movido à força nem derrubado contra a sua vontade |
 | **1** | `Leitura` | você identifica a Classe e a Forma de qualquer feitiço conjurado a até `18 m` |
 | **2** | `Segundo Fôlego` | quando você chega a `0` de vida, uma vez por descanso longo você escolhe `Insistir` sem gastar a rodada |
-| **2** | `Contragolpe` | uma vez por cena, quando alguém erra um ataque corpo a corpo contra você, a sua próxima Kata contra ele não pode ser evitada por deslocamento |
-| **3** | `Aliança` | a sua arma nunca é desarmada, e ninguém além de você a empunha |
+| **2** | `Contragolpe` | até `maestria` vezes por cena, quando alguém erra um ataque corpo a corpo contra você, a sua próxima rolagem de ataque de uma Kata contra ele tem vantagem, até o fim da cena; uma resposta guardada por vez |
+| **3** | `Aliança` | a sua arma não é desarmada contra a sua vontade, e só você a empunha; outra criatura ainda pode carregá-la |
 
-> **⚠ Os dois de Classe Passiva `1` do meio já existiam, e é por isso que eles estão aqui.** *O `Raiz` é a Passiva da `Fisga` e o `Leitura` é a da `Bancada`, as duas Técnicas Marciais prontas do §9.* **Elas estavam publicadas dentro de duas fichas e em lugar nenhum como exemplo** — quem lia a criação não passava por elas.
+> ***v0.340: o `Calo` saiu da lista (D12, decisão do Mizuki de 04/10/2026).*** *A candidata o retirou como Talento marcial: reconhecer pelo toque uma arma que você costuma usar descreve a relação com o equipamento, e não um efeito; identificar arma disfarçada ou detectar substituição seguem a cena e as perícias. O `Contragolpe` e a `Aliança` ganharam o texto da candidata (R10-13, R10-14): a vantagem substitui o “não pode ser evitada por deslocamento” da v0.339, e a `Aliança` veta o desarme involuntário e o uso por terceiro sem tornar a arma indestrutível nem teleportá-la de volta.*
 
-**Nenhum destes é catálogo, e nenhum tem gate.** *Passiva se escreve na hora, com o mestre, do jeito que o Fundamento sempre fez.* **A lista existe para dar altura, e não para escolher.**
+> **⚠ Os dois de Categoria de Efeito `1` do meio já existiam, e é por isso que eles estão aqui.** *O `Raiz` é o Talento da `Fisga` e o `Leitura` é o da `Bancada`, as duas Técnicas Marciais prontas do §9.* **Eles estavam publicados dentro de duas fichas e em lugar nenhum como exemplo** — quem lia a criação não passava por eles.
 
-#### `Bocado` — Classe Passiva 1
+**Nenhum destes é catálogo, e nenhum tem gate.** *Talento se escreve na hora, com o mestre, do jeito que o Fundamento sempre fez.* **A lista existe para dar altura, e não para escolher.**
+
+#### `Bocado` — Categoria de Efeito 1
 
 **Ela é a única desta lista que a peça 9 §5 precisa que exista**, e por isso ela é a única escrita inteira aqui.
 
@@ -124,16 +125,16 @@ Esta peça é a que mais chegou com contrato assinado por outras, e vale listar 
 
 | a metade | de onde ela sai |
 |---|---|
-| **o saque dobrado** | **peça 3 §3.2**, que já decidiu que *"uma Passiva ou aptidão pode dizer que o segundo saque sai de graça, e ela cabe na Classe Passiva 1"*. **Este é o primeiro exemplar dela** |
+| **o saque dobrado** | **peça 3 §3.2**, que já decidiu que *"um Talento ou aptidão pode dizer que o segundo saque sai de graça, e cabe na Categoria de Efeito 1"*. **Este é o primeiro exemplar dela** |
 | **esconder o que emana** | **peça 9 §5**, que abre o buraco: o corpo do restringido atravessa barreira e o equipamento dele não |
 
-> **A altura não foi escolhida — ela estava escrita.** *A peça 3 §3.2 preçou o saque dobrado em Classe Passiva `1` na v0.122, e a metade de esconder é **acesso e não número**: ela não muda rolagem nenhuma e só existe quando alguém levantou barreira.* **Somadas, continuam em `1`.**
+> **A altura não foi escolhida — ela estava escrita.** *A peça 3 §3.2 preçou o saque dobrado em Categoria de Efeito `1` na v0.122, e a metade de esconder é **acesso e não número**: ela não muda rolagem nenhuma e só existe quando alguém levantou barreira.* **Somadas, continuam em `1`.**
 >
-> **⚠ E ela não é porta dos fundos para a Expansão.** *O Acerto garantido de uma Expansão completa lê **alvo**, e item nunca foi alvo legível* — o que você carrega já atravessava domínio antes desta Passiva existir. **O `Bocado` não muda nada ali, e o texto diz isso para ninguém ler ganho onde não tem.**
+> **⚠ E ele não é porta dos fundos para a Expansão.** *O Acerto garantido de uma Expansão completa lê **alvo**, e item nunca foi alvo legível* — o que você carrega já atravessava domínio antes deste Talento existir. **O `Bocado` não muda nada ali, e o texto diz isso para ninguém ler ganho onde não tem.**
 
 > **Os nomes passaram pela triagem, e ela matou dois — um por colisão que ela pega e outro por colisão que ela NÃO pega.**
 >
-> **`Segunda Natureza` saiu `OCUPADO`: é Passiva no manual.** *A triagem pegou essa sozinha, e o lugar virou o `Aliança`.*
+> **`Segunda Natureza` saiu `OCUPADO`: é Talento no manual.** *A triagem pegou essa sozinha, e o lugar virou o `Aliança`.*
 >
 > **`Bolso` saiu `LIVRE` e reprovou mesmo assim, por SENTIDO.** *O projeto usa "bolso" para o orçamento de PE em dez lugares — "o bolso já é apertado" —, e a triagem pega substring e não sentido.* **`Bocado` saiu livre nas duas direções e não aparece uma vez em minúscula na pasta.** *Ficam registrados, também livres:* `Coldre`, `Estojo`, `Ninho`, `Alforje` e `Bornal`.
 
@@ -147,6 +148,8 @@ Na criação, depois da Descrição e da Regra, você escolhe uma das duas. **A 
 > **Você recebe uma arma de cada uma, de grau 4** — pela peça 16 §3, grau 4 fere maldição e não dá `Estigma` nenhum.
 > **Você é treinado nas três**, seja qual for o balde de acesso delas.
 > **As suas Katas valem com qualquer arma amaldiçoada desses três grupos** — a peça específica é substituível, o grupo não.
+
+> ***v0.335, da candidata (R10-37, decisão D33 do Mizuki de 04/10/2026): a rota segue o Equipamento restrito.*** **Você escolhe qualquer arma da categoria que o seu acesso permita.** *Arma de Fogo pede Grau 2 ou autorização prévia do mestre (peça 14 §6.5), e a rota não dispensa isso.* **A arma de fogo recebida vem com a munição inicial de uma compra** — três cargas (peça 14 §5.2, *"`Munição` também é estoque"*). *E a ferramenta vestida como armadura que ocupa a função de Revestimento 2 ou 3 segue o mesmo acesso, salvo permissão do mestre.*
 
 É a rota da Maki e do Toji: a pessoa que não tem energia e compete porque a ferramenta carrega a energia por ela.
 
@@ -237,6 +240,8 @@ A peça 1 fixou na v0.117 que **a técnica declara um atributo na criação, qua
 >
 > **A `Arma de Fogo` é Destreza e o `Machado` é Força, e as duas listas acima não se cruzam nesses dois.** *Quem quer rifle e machado nos três grupos não tem escolha legal hoje: ou os três são de Força, ou os três são de Destreza.*
 >
+> ***FECHADO na v0.340 (R10-02): a Kata usa o atributo da arma empregada naquela execução, no ataque e na CD.*** *O texto da candidata preserva o que o livro v0.331 já dizia: `d20 + atributo da arma + maestria` no ataque e `8 + atributo da arma + maestria` na CD; se a arma deixa escolher entre Força e Destreza, declare qual você usa e mantenha até resolver a execução; um efeito com duração conserva a CD definida ao ser aplicado, mesmo se você trocar de arma. Dá para escolher um grupo de Força e outro de Destreza, e o rifle com o machado cabem na mesma ficha. **A tabela acima continua valendo como o mapa de “que atributo acerta com essa arma”, e a trava “os três grupos acertam pelo atributo declarado” saiu.** A medida que faltava (“a CD aguenta?”) é a quarta linha da tabela: com o ataque e a CD do mesmo atributo, a CD é `8 + atributo + maestria` e o alvo treinado resiste `65%`, igual à base do sistema. A ficha que reparte pontos entre Força e Destreza usa o atributo de cada execução, e o par ataque e CD nunca se separa.*
+>
 > **A saída que ele propõe é que a Kata acerte pelo atributo DA ARMA**, e ela já está medida na tabela acima como a terceira linha — *acerto pela arma, CD pelo declarado* —, que reprovou com o alvo resistindo `90%`. **Mas a medida foi feita no caso afiado, com o atributo declarado em `0`:** *lá o declarado era Inteligência e a arma pedia Força.* ***No caso do Mizuki os dois são físicos, e a ficha investe nos dois*** — é outro caso, e ele não foi medido.
 >
 > **O que precisa ser medido antes de mexer:** o acerto de cada arma pelo atributo dela, com a CD saindo do declarado, numa ficha que reparte pontos entre Força e Destreza em vez de encher um. *Se a CD aguentar, a trava vira "o atributo declarado tem de ser um dos que os seus grupos usam" e a ficha do rifle mais machado passa a caber.* **A checagem 4 do `conferir-marcial.py` é a dona desta amarra e muda junto.**
@@ -312,9 +317,9 @@ Contra uma marcial de arma única, ele apagaria a Kata junto:
 
 ### 8.1 O `Leque` volta, e três documentos dizem que ele não tem onde cair
 
-**A peça 11 §6.8 escreve que a rota sem energia perde um dos três eixos do marco**, porque o `Leque` compra `+1 feitiço e uma Passiva` e as duas coisas são do Fundamento. *Escreve também que a linha de graça perde o `+1 espaço de feitiço`.*
+**A peça 11 §6.8 escreve que a rota sem energia perde um dos três eixos do marco**, porque o `Leque` compra `+1 feitiço e um Talento` e as duas coisas são do Fundamento. *Escreve também que a linha de graça perde o `+1 espaço de feitiço`.*
 
-**As duas frases eram verdade quando foram escritas e deixam de ser aqui.** *Esta rota tem lista de Katas, tem Passivas e tem espaços — então o `Leque` tem onde cair e o espaço de graça também.*
+**As duas frases eram verdade quando foram escritas e deixam de ser aqui.** *Esta rota tem lista de Katas, tem Talentos e tem espaços — então o `Leque` tem onde cair e o espaço de graça também.*
 
 > **O marco dela volta a ter três eixos: `Corpo`, `Lapidação` e `Leque`.** *Nenhum número se move — o `10` de picks que a rota pura de Lapidação precisa continua saindo dos sete marcos com os três últimos levando duas, e ele mora no §3 da peça 11.*
 
@@ -338,7 +343,7 @@ Contra uma marcial de arma única, ele apagaria a Kata junto:
 
 ## 9. Dois exemplos, um de cada rota
 
-**Eles param onde a criação para** — Descrição, Regra, Famílias, rota e Passiva. *`Ruptura` e `Ōgi` não aparecem porque só chegam nos níveis 10 e 17, e são escritas na hora.*
+**Eles param onde a criação para** — Descrição, Regra, Famílias, rota e Talento. *`Ruptura` e `Ōgi` não aparecem porque só chegam nos níveis 10 e 17, e são escritas na hora.*
 
 ### Fisga — rota de arma
 
@@ -350,7 +355,7 @@ Contra uma marcial de arma única, ele apagaria a Kata junto:
 | **Grupos** | Armas Longas · Ceifa · Flexível |
 | **Livres** | Alcance · Controle |
 | **Fechadas** | Amparo · Auxiliares · Área |
-| **Passiva** | `Raiz` (Classe Passiva 1): você não é movido à força nem derrubado contra a sua vontade |
+| **Talento** | `Raiz` (Categoria de Efeito 1): você não é movido à força nem derrubado contra a sua vontade |
 
 *Os três grupos fecham em Força, e os três carregam `Alcance` e `Emaranha` — é isso que justifica as duas Famílias Livres.* **Amparo fechada porque nenhuma das três cura ninguém**, e é o caso que o §4.1 descreve: *as armas são a régua que o mestre lê.*
 
@@ -364,7 +369,7 @@ Contra uma marcial de arma única, ele apagaria a Kata junto:
 | **Ferramenta** | uma armadura de corpo inteiro. **Coisa que o golpe atravessa** — os punhos dela são dele |
 | **Livres** | Auxiliares · Amparo |
 | **Fechadas** | Área · Marca · Castigo |
-| **Passiva** | `Leitura` (Classe Passiva 1): você identifica a Classe e a Forma de qualquer feitiço conjurado a até 18 m |
+| **Talento** | `Leitura` (Categoria de Efeito 1): você identifica a Classe e a Forma de qualquer feitiço conjurado a até 18 m |
 
 *A armadura é o `Revestimento` da peça 14 §3, com os números publicados lá — não é proteção nova.* **`Amparo` é Livre porque a ficção aguenta**, e é o caso que a rota de ferramenta abre: *uma arma que cura é difícil de justificar, e uma bancada de engenharia não é.*
 
@@ -394,7 +399,7 @@ O `conferir-marcial.py` roda **catorze checagens**, e nenhum valor de regra fica
 | 12 | triagem de todo nome que a peça cria | o manual | nome colidindo acende |
 | 13 | o `Bocado` entrega **um saque a mais** que a base, e não um número próprio | **peça 3 §3.2** | mexer num dos dois lados sozinho acende |
 
-> **A checagem 13 mede RELAÇÃO e não constante.** *Ela não guarda o `2` do `Bocado`: ela lê quantos saques a peça 3 §3.2 dá de graça hoje e quantos a Passiva entrega, e exige que a segunda seja a primeira mais um* — que é o que *"o segundo saque sai de graça"* quer dizer. **Mudar os dois lados de forma coerente fica verde de propósito.**
+> **A checagem 13 mede RELAÇÃO e não constante.** *Ela não guarda o `2` do `Bocado`: ela lê quantos saques a peça 3 §3.2 dá de graça hoje e quantos o Talento entrega, e exige que a segunda seja a primeira mais um* — que é o que *"o segundo saque sai de graça"* quer dizer. **Mudar os dois lados de forma coerente fica verde de propósito.**
 
 **A checagem 3 e a checagem 9 se medem por eixos opostos, e o par fica declarado.** *A 3 pergunta se a rota recebe demais; a 9 pergunta se ela é frágil demais.* **Uma rota com um grupo só passaria na 3 com folga e reprovaria na 9**, e é por isso que as duas precisam existir juntas.
 
@@ -416,3 +421,16 @@ O `conferir-marcial.py` roda **catorze checagens**, e nenhum valor de regra fica
 - **A vaga de `Desliga` do Corpo Amaldiçoado.** *Ela é a única que sobrou na peça 13: a outra fechou na v0.132, com o `Conhecido`.* **A Origem dela não espera peça nenhuma desde a v0.122** — ela esperava esta aqui —, mas o **alvo** espera: *a enumeração da peça 13 §8 ficou com zero livre quando o `Ferro Velho` gastou os degraus de exaustão, e todo `Desliga` novo passou a depender de peça nova nomear coisa.* **Alvo de `Desliga` é escopo da peça 13**, e é lá que a espera está escrita.
 - **Nenhuma Kata publicada.** *Esta peça entrega a máquina e dois Fundamentos de exemplo; ela não abre catálogo de Kata pronta, do mesmo jeito que o manual entrega três Fundamentos prontos e não uma lista fechada de feitiços.*
 - ~~**O texto de mesa.** *Como toda peça de `03-mecanica/`, esta é nota de design.* **O capítulo do livro sai dela, e é lá que a armadilha do §6 precisa aparecer onde o jogador escolhe** — não numa seção de argumento.~~ **Fechado desde a v0.124, e só riscado na v0.170.** *O capítulo saiu naquela versão, e a armadilha está nele com todas as letras — o aviso `ela cobra tarde` fica na seção em que o objeto declara se o golpe simples atravessa, que é exatamente onde o jogador escolhe.* **Quarenta e seis versões de pendência morta que nenhuma checagem alcançava**, porque o assunto dela é "texto de mesa" e não uma peça.
+
+## 12. O que a candidata escreveu e esta peça ainda não dizia — v0.340
+
+*Migração das Rotas do livro reconstruído (passo 5b do `PLANO.md`), a parte da Técnica Marcial.* **Mudaram o `Calo` (saiu), o `Contragolpe` (vantagem em vez de “não pode ser evitada”), o atributo da Kata (§5) e a lista dos Talentos que a candidata publica.** *O resto é lacuna fechada, sem número novo:*
+
+- **O Selo (R10-03).** *O equipamento em uso é o Selo e não devolve pontos uma segunda vez. O gesto de uma Kata exige mãos livres e voz.*
+- **Entidade no lugar de Kata (R10-04).** *Um espaço comum pode ser ocupado por uma entidade só se a Descrição, a Regra, a semente ou o equipamento preveem criar, chamar ou controlar uma; uma espada que só corta não ganha entidade por ter espaço sobrando. A troca usa a revisão de um espaço por nível, e preencher espaço novo não a gasta; Classe `0`, Ruptura, Liberação, Ōgi e Auge não entram nessa troca.*
+- **Ōgi, Auge e Ruptura (R10-05, R10-26).** *A aplicação máxima pode ser ataque, cura ou utilidade pelo procedimento da Técnica Máxima, e não só golpe de dano fixo. Esta rota e a Sem Técnica não aprendem nem auxiliam `Ritual`.*
+- **`Bocado` (R10-11).** *No livro a entrada se chama `Maldição do Inventário`. Você saca ou guarda até dois itens por turno de graça, em vez de um; os objetos continuam contando na carga, guardar não deixa em uso nem satisfaz o Selo, e a pequena maldição não recebe turno, ataques nem ficha de entidade.*
+- **`Leitura` (R10-12).** *O Talento tem efeito próprio. Sem energia pessoal, exige uma ferramenta cujo funcionamento preveja essa leitura, e não concede `Sentir Energia` nem aptidão.*
+- **Equipamento restrito (D33, R10-37).** *A rota de arma segue Equipamento restrito, salvo permissão do mestre, e a arma de fogo vem com a munição inicial. A frase sobre ferramenta vestida como armadura saiu desta entrada.*
+- **O exemplo do Iori (D43, R10-38, R10-39).** *O `Gancho fechado` aplica `Prende` na falha de um TR Físico contra a CD da Kata, e não no acerto; as tentativas de saída usam o mesmo TR (v0.340, peça 19).*
+- **O `Segundo Fôlego` (R10-32) não migrou:** *depende do `Insistir`, e a revisão do Morrendo está adiada.*

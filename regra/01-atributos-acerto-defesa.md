@@ -196,6 +196,7 @@ Perícia              = d20 + atributo + maestria   (a maestria só entra se tre
 | **Vanguarda** | d8 | 8 | 5 | 5 | meio a meio |
 | **Guia** | d8 | 8 | 5 | 5 | meio a meio |
 | **Evocador** | d6 | 6 | 4 | 6 | combustível cheio, e corpos na frente |
+| **Incursor** | d6 | 6 | 4 | 6 | combustível cheio, e corpos na frente |
 | **Emanador** | d6 | 6 | 4 | 6 | combustível cheio, canhão de vidro |
 
 **A vida inicial é o máximo do dado; a vida por nível é a metade dele arredondando para cima.** Se a sua mesa preferir, role o dado em cada nível em vez de pegar o valor fixo — só saiba que rolar rende meio ponto a menos por nível na média, e é essa a aposta.
@@ -205,6 +206,8 @@ Perícia              = d20 + atributo + maestria   (a maestria só entra se tre
 ### A vida média dos quatro Caminhos jogáveis
 
 ***Decisão do Mizuki, 28/09/2026:*** "remove, porque não temos evocador". O Evocador permanece como registro na tabela acima e fica fora da média usada para calibrar os inimigos.
+
+**Referência de calibração v0.330 mantida na v0.331.** A chegada de Evocador e Incursor não recalcula automaticamente o dano dos inimigos. A média abaixo conserva os quatro Caminhos usados na calibração já publicada; incluir os seis requer nova medição e está na fila.
 
 **Caminhos da média:** Bastião, Vanguarda, Guia e Emanador. Cada um tem o mesmo peso. **Constituição típica: 3.** A vida de cada Caminho continua seguindo a fórmula desta seção.
 
@@ -373,9 +376,9 @@ caindo. *Ela previne dano que ainda não veio; não devolve o que já saiu.*
 
 > **⚠ Este parágrafo dizia `cobrir-se` no lugar de `canalizar energia`, e ele estava velho desde a v0.148** — foi aquela versão que moveu o dano na arma de uma aptidão para a outra, por achado do Mizuki lendo o PDF. *A v0.151 escreveu a linha por cima sem cruzar o nome.*
 
-> **O tamanho disso foi medido na v0.151, e ele decide uma banda.** *A condição `Incapacitado` faz todo ataque corpo a corpo que acertar você virar crítico, e o que ela vale é `(taxa de acerto − taxa de 20 natural) × dados dobrados`.* **Com só o dado da arma ela vale `4,95` de dano por rodada, que é `32%` do teto da banda `Leve`. Somando o dano na arma do refino `10` ela vai a `17,55`, que é `114%` do mesmo teto — e com arma `d12`, `18,45`, que é `120%`.** *A peça 19 §2.4 tem a tabela inteira.* **Sem esta linha, uma condição `Leve` estoura a própria banda.**
+> **O tamanho disso foi medido na v0.151, e ele decide uma banda.** *A condição `Guarda Aberta` faz todo ataque corpo a corpo que acertar você virar crítico, e o que ela vale é `(taxa de acerto − taxa de 20 natural) × dados dobrados`.* **Com só o dado da arma ela vale `4,95` de dano por rodada, que é `32%` do teto da banda `Leve`. Somando o dano na arma do refino `10` ela vai a `17,55`, que é `114%` do mesmo teto — e com arma `d12`, `18,45`, que é `120%`.** *A peça 19 §2.4 tem a tabela inteira.* **Sem esta linha, uma condição `Leve` estoura a própria banda.**
 >
-> **⚠⚠ Os dois eram `14,40` e `15,30` — `93%` e `99%` — até a v0.158, e o que os moveu foi o refino `10` passar a dar `4d6` em vez de `3d6`** *(peça 11 §6.9)*. **Naquela medida a exclusão era folga: a condição ficava *"a um `d12` de estourar"*.** *Hoje ela é carga — o soco sozinho já joga o `Incapacitado` para fora da `Leve` se o dado de aptidão dobrar.* **A linha da regra não mudou uma palavra; o que mudou foi quanto ela está segurando.**
+> **⚠⚠ Os dois eram `14,40` e `15,30` — `93%` e `99%` — até a v0.158, e o que os moveu foi o refino `10` passar a dar `4d6` em vez de `3d6`** *(peça 11 §6.9)*. **Naquela medida a exclusão era folga: a condição ficava *"a um `d12` de estourar"*.** *Hoje ela é carga — o soco sozinho já joga a `Guarda Aberta` para fora da `Leve` se o dado de aptidão dobrar.* **A linha da regra não mudou uma palavra; o que mudou foi quanto ela está segurando.**
 
 Três coisas caem dessa frase, e nenhuma delas precisa de regra a mais.
 
@@ -399,12 +402,12 @@ Sem atributo e sem valor inicial. A parte do atributo é a decisão da seção 9
 
 | nível | 1 | 5 | 9 | 13 | 17 | 20 |
 |---|---|---|---|---|---|---|
-| PE total, no manual | 6 | 30 | 54 | 78 | 102 | 120 |
+| PE total, na tabela do manual v7 | 6 | 30 | 54 | 78 | 102 | 120 |
 | `6 × nível` | 6 | 30 | 54 | 78 | 102 | 120 |
 
 Uma primeira redação desta seção dizia que *"a fórmula já estava no manual"* e que ela *"não é escolha nossa"*. **Isso dá ao manual uma autoridade que ele não tem.** Os limitadores e exemplos dele foram calibrados quando o sistema em volta era outro, e o Mizuki é explícito sobre isso: servem de base para continuidade, não de verdade. A escolha é nossa; o valor do manual é que ele **não contradiz**, o que significa que a coluna de "quantas vezes você lança" continua dizendo a verdade sobre a ficha sem precisar ser refeita.
 
-**Se um dia o PE por nível de um Caminho mudar, a coluna do manual muda junto** — e é isso, e não uma tabela vencendo a outra, que o `conferir-manual.py` está lá para não deixar passar em silêncio.
+*Desde a v0.338 a tabela do manual mora aqui:* **o manual do Fundamento v7 saiu de fonte no passo 5 da migração, e o livro reconstruído escreve só a fórmula** *(`PE máximo = PE por nível do Caminho × nível`).* **Se um dia o PE por nível de um Caminho mudar, a coluna do manual muda junto** — e é isso, e não uma tabela vencendo a outra, que o `conferir-manual.py` está lá para não deixar passar em silêncio.
 
 **É a única reserva do sistema que é uma linha reta.** A vida tem um valor inicial e soma atributo; a Integridade tem um valor inicial e — **desde a v0.145** — soma atributo também. O PE não tem nem um nem outro: ele é a taxa vezes o nível, e passa pela origem.
 
@@ -599,7 +602,7 @@ Porque na quarta ela nunca aconteceria. Com a vida **não voltando no descanso c
 
 - ~~**O que uma Cicatriz é, mecanicamente.**~~ ***FECHADA na v0.171, e a seção acima é a dona.*** *Aberta desde a v0.37 — ela esperou a peça 19, que chegou na v0.103 e não a fechou, e a peça 24, que na v0.145 mediu o recorte e devolveu ela para cá.* **Vantagem em `Intimidação`, desvantagem em `Persuasão`, teto `1`, e a sua própria `Energia Reversa` impede que ela venha.**
 - ~~**Se a Energia Reversa limpa Sequela antes do descanso longo.**~~ ***FECHADA na v0.171: não limpa.*** *Não é decisão nova — esta seção já a tinha tomado, e ninguém tinha lido assim.* **O parágrafo do vaivém escreve que o alvo era "fazer a **queda** custar alguma coisa que a cura não devolve"**, e a `Energia Reversa` é cura. *Se ela limpasse Sequela, a Sequela viraria exatamente aquilo que a cura devolve, e a única coisa que a seção existe para segurar cairia junto.*
-- **`Incapacitado` é condição nomeada no manual**, e o Legado *Corpo Emprestado* a nega com a qualificação *"só por estar ferido"*. Com esta seção escrita, a leitura fica decidida: **`Inconsciente` não é a condição `Incapacitado`**, e o Legado não alcança o `Inconsciente`.
+- **`Guarda Aberta` é condição nomeada no manual**, e o Legado *Corpo Emprestado* a nega com a qualificação *"só por estar ferido"*. Com esta seção escrita, a leitura fica decidida: **`Inconsciente` não é a condição `Guarda Aberta`**, e o Legado não alcança o `Inconsciente`.
 - **E `Inconsciente` também não é `Derrubado`.** *`Derrubado` é condição de nível `Leve` no manual: quem está `Derrubado` está no chão e continua com vida.* **Quem está `Inconsciente` chegou a zero.** *A Manha `Abalo` aplica o `Derrubado`, e nunca este estado.*
 
 ## 6. O que a conta produz
@@ -692,7 +695,7 @@ A tabela de letalidade do Fundamento mostra 1,7 a 2,0 rodadas porque supõe que 
 
 ### 8.1 Os tipos de dano
 
-**Os catorze tipos, em três grupos, com o peso de cada grupo no dano recebido.** *Escritos aqui na v0.74.* **Hoje eles são a seção 4 da peça 19.**
+**Os catorze tipos, em três grupos, com o peso de cada grupo no dano recebido.** *Escritos aqui na v0.74.* **Hoje eles são a seção 4 da peça 19, e são quinze desde a v0.347, com o `Força`.**
 
 ### 8.2 Cobertura
 

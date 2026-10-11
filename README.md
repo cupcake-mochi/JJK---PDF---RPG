@@ -1,8 +1,8 @@
-# Projeto - M — pacote de entrega
+# Ciclo Maldito — pacote de entrega
 
 Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Recorte da v0.330.** Manual do Fundamento na **v7.41**, e o Manual da Guilda em **18 capítulos**, 280 páginas.
+**Recorte da v0.358.** O livro é o **Ciclo Maldito**, na edição R43, em **21 capítulos** e 373 páginas.
 
 > ## Este repositório é ARTEFATO, e não fonte
 >
@@ -10,7 +10,7 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 >
 > **A fonte é [cupcake-mochi/JJK---Project](https://github.com/cupcake-mochi/JJK---Project).** Correção descoberta aqui se aplica lá, e volta na próxima leva.
 >
-> **Ele existe por um motivo medido:** o repositório de trabalho tem `4,9 MB`, e `732 KB` disso é o CHANGELOG — o registro de *por que* cada número é aquele. Para escrever texto de mesa isso é ruído, e ruído que gasta o contexto de quem está lendo. **Aqui são `2,0 MB`, e mais da metade é o `.pdf` do manual: nenhum byte é histórico de decisão.**
+> **Este recorte reúne o material necessário para consultar o sistema.** O registro completo de decisões e os validadores permanecem no repositório de trabalho.
 
 ---
 
@@ -21,10 +21,10 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 |---|---|
 | `regra/` | as **vinte e sete peças** de mecânica, na ordem numérica |
 | `desenho/` | o que **ainda não virou peça**: as Trilhas, os degraus de Caminho, as Manhas, a lista de gatilhos, o esqueleto e a regra opcional do `Bloquear` |
-| `caminhos/` | **a coleção v0.4 dos Caminhos** — o texto do Bastião, da Vanguarda, do Emanador e do Guia e das doze Trilhas, que é o do livro desde a v0.270. *Sem preço medido: o preço de `desenho/` e o índice da `regra/17` são da coleção anterior* |
-| `manual/` | o **Fundamento** — o subsistema de técnica e feitiço, fechado e validado. `.docx` e `.pdf` na **v7.41** |
+| `caminhos/` | **a edição integrada v0.331** — seis Caminhos e dezoito Trilhas, de onde o capítulo 6 do livro partiu. **O texto atual é o do livro:** a revisão de regras de outubro de 2026 mudou habilidades depois dela (no Incursor, o novo alvo do `Redirecionar a Força` deixou de poder Bloquear). A coleção v0.4 permanece como histórico |
+| `invocacoes/` | o capítulo de Invocações da v0.331, de onde os capítulos 16 e 17 do livro partiram. O texto atual é o do livro |
 | `ficha/` | a ficha em branco e uma ficha de exemplo preenchida, nível 2 |
-| `livro/` | **o Manual da Guilda inteiro** — o texto de mesa que a v0.102 decidiu escrever direto no PDF, em **18 capítulos**. `.pdf` e `.docx` de revisão. *A paginação está na linha do recorte, lá em cima, e só lá* |
+| `livro/` | **o Ciclo Maldito, o livro de regras final**, em `livro/Ciclo-Maldito-Livro-de-Regras.pdf`, com **21 capítulos**. Ele trocou o Manual da Guilda nesta entrega na v0.358. **Onde outro arquivo daqui disser diferente, vale o livro.** *A paginação está na linha do recorte, lá em cima, e só lá* |
 
 > ## Um arquivo de `desenho/` não é desenho, e ele entrou na v0.98
 >
@@ -36,8 +36,11 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 >
 > **Os dois vieram porque a entrega apontava para eles e não os carregava.** *Até a v0.97 eram 19 ponteiros pendurados; agora a checagem 7 do `conferir-repositorio.py` acusa se voltar a acontecer.* **Hoje sobrou um: o `arquitetura.md`.**
 
-> **⚠ Desde a v0.270 o texto dos quatro Caminhos é o de `caminhos/`, e não o de `desenho/`.** *O Mizuki refez as habilidades base e as Trilhas do Bastião, da Vanguarda, do Emanador e do Guia na coleção v0.4, e ela entrou no livro sem medir. A `regra/17` e os três `DESENHO-*.md` ficaram como o registro com preço da coleção anterior, e o Evocador e as Invocações saíram da edição jogável até o subsistema fechar.* **O que esta página diz sobre Trilhas, Manhas e o Evocador daqui para baixo é dessa coleção anterior.**
+> **O livro é a edição atual.** Evocador, Incursor e Invocações estão nele, com a revisão de regras de outubro de 2026. Os textos de `caminhos/`, `invocacoes/` e `desenho/` e os preços antigos da `regra/17` são registros de antes dele e não substituem o que o livro diz. As peças de `regra/` acompanham o livro, com duas exceções que esperam revisão: a vida a zero e as Origens.
 
+## Histórico do planejamento e das réguas antigas
+
+O restante desta página preserva o planejamento antigo. As lacunas do antigo Evocador, a suspensão de Invocações e os nomes Servo, Matilha e Coro não descrevem a edição atual. Para jogar, consulte o livro e a edição integrada dos Caminhos.
 > **Comece pela peça 17.** Ela é o índice das **102 entradas** que um personagem pode ganhar — 68 entregas de Trilha, 20 degraus de Caminho e as 14 Manhas — e diz, de cada uma, **como ela se chama e em qual arquivo de `desenho/` o texto dela mora.** *Ela não repete preço nem texto de mesa: para isso, ela te manda para o desenho.* **É o mapa mais curto que existe deste material.**
 
 ## O plano do livro — dezesseis capítulos em três partes
@@ -64,7 +67,7 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 | 8 | Caminhos | `regra/06` · `desenho/DESENHO-caminhos.md` |
 | 9 | Trilhas | `desenho/DESENHO-trilhas.md` · `desenho/LISTA-gatilhos-trilhas.md` |
 | 10 | Manhas | `desenho/DESENHO-manhas.md` |
-| 11 | Fundamento — técnica e feitiço | `manual/` |
+| 11 | Fundamento — técnica e feitiço | os capítulos 10 e 11 do livro |
 | 12 | Aptidões e refino | `regra/11` · `desenho/arquitetura.md` §4.3 |
 | 13 | Equipamento | `regra/14` |
 | 14 | Ferramenta amaldiçoada | `regra/16` |
@@ -80,7 +83,7 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 
 **O livro passou de longe da estimativa de 140 daqui**, que era de antes de existir texto de
 verdade — e ele ganhou quick-start, glossário e índice remissivo, nenhum deles previsto nela.
-Está em `livro/Projeto-M-Manual-da-Guilda.pdf`. *A paginação de hoje está na linha do recorte,
+Aquele livro, o Manual da Guilda, saiu desta entrega na v0.358, trocado pelo Ciclo Maldito. *A paginação de hoje está na linha do recorte,
 no topo deste arquivo: **este parágrafo publicava a dele**, e as duas divergiram por doze
 versões.*
 
@@ -88,7 +91,7 @@ versões.*
 >
 > **1 — O sumário tem número de página errado, e a causa é `id` duplicado.** No capítulo de Trilhas, as cinco entradas de Caminho apontam para as páginas 64 a 67, que são o capítulo anterior. Mesmo defeito no capítulo de Invocações, onde *"O catálogo"* aponta para a página 84, que é o capítulo de Manhas. **O `target-counter(attr(href), page)` resolve para o primeiro elemento com aquele `id`**, e duas seções de mesmo nome em capítulos diferentes viram o mesmo `id`. *Conserto: prefixe o `id` com o capítulo.*
 >
-> **2 — O Fundamento precisa ser regerado, e não reaproveitado.** O rascunho transcreveu o manual na `v7.9`. Ele está na **v7.41**, e três coisas mudaram desde lá: a v0.104 mexeu em dois feitiços prontos — `Palma Trovejante` de `5d8` para `6d8`, e `Vala Comum` de `9d8` para `11d8` —, e a v0.107 devolveu o piso `Classe 3 ou mais` à regra de ouro nº 5, que estava publicado em outros três lugares do manual e faltava justamente na tabela que o checklist do mestre segue; e a v0.159 acertou a seção `Integridade` — ela publicava `Integridade = vida máxima` sem dizer para quem, e essa linha é do inimigo e não do personagem jogador — e deu à seção `Inimigos` as duas linhas que o mestre marca na ficha, Integridade e Reação. *É trabalho mecânico — transcrever o `.docx` —, mas não é copiar o capítulo antigo.*
+> **2 — O Fundamento precisa ser regerado, e não reaproveitado.** O rascunho transcreveu o manual na `v7.9`. Ele chegou à `v7.41`, e três coisas mudaram desde lá: a v0.104 mexeu em dois feitiços prontos — `Palma Trovejante` de `5d8` para `6d8`, e `Vala Comum` de `9d8` para `11d8` —, e a v0.107 devolveu o piso `Classe 3 ou mais` à regra de ouro nº 5, que estava publicado em outros três lugares do manual e faltava justamente na tabela que o checklist do mestre segue; e a v0.159 acertou a seção `Integridade` — ela publicava `Integridade = vida máxima` sem dizer para quem, e essa linha é do inimigo e não do personagem jogador — e deu à seção `Inimigos` as duas linhas que o mestre marca na ficha, Integridade e Reação. *É trabalho mecânico — transcrever o `.docx` —, mas não é copiar o capítulo antigo.*
 
 ## ⚠ A primeira coisa a entender: as peças NÃO são texto de mesa
 
@@ -126,7 +129,7 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 
 **1 — A linha do físico está certa, e o aviso que existia aqui morreu na v0.82.** A peça 6 §3 publica `106` de dano por rodada no nível 30 para o combatente físico, somando feitiço de Toque **mais** golpe simples. *Uma versão inteira isso ficou marcado como dívida, porque um feitiço de Toque gasta a Ação Padrão conjurando.* **O golpe vem do ataque extra do nível 7, que é um golpe SOLTO por rodada e não exige a Ação de Atacar.** Está escrito na peça 6 §3.1, com validador em cima. *Publique o `106`; ele é o número certo.*
 
-~~**2 — O `.pdf` do manual está atrasado em relação ao `.docx`.**~~ **Resolvido na v0.93:** o `.pdf` deixou de ser exportado a mão e sai junto. *Os dois estão na* **v7.41**, *e pode usar qualquer um.*
+~~**2 — O `.pdf` do manual está atrasado em relação ao `.docx`.**~~ **Resolvido na v0.93:** o `.pdf` deixou de ser exportado a mão e sai junto. *Os dois chegaram à* `v7.41`*; o manual do Fundamento saiu desta entrega na v0.353, e o que vale é o livro.*
 
 **3 — O `Batedor` estoura o orçamento em ~20%, e é de propósito.** A ação `Mirar` foi escrita na v0.86 — *Ação Bônus, vantagem no próximo tiro, e só se você não se deslocou nem vai se deslocar* — e ela custa `4,25` fatias num degrau de `0,80`. **As três rotas vão para `5,95` a `6,09` contra um teto de `5,00`, e as três passam a dominar a `Estocada` por `1,20×`.** *Decisão do Mizuki, no mesmo molde da `Brasa`, que já está publicada estourada.* **Publique como está** — o argumento e os números estão em `desenho/DESENHO-trilhas.md`, na seção `A ação Mirar`.
 
@@ -160,14 +163,14 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 | **as duas Ações Bônus** — `Provocar` e `Ler o Ambiente` | `regra/03`, seção 3.1. *A conta de preço das duas está no fim do* `desenho/DESENHO-caminhos.md` |
 | **o alcance de cada arma de projétil e arremesso** — as 19, em metros | `regra/14`, seção 5.2.2 |
 | **Cobertura** — Parcial, Boa e Total | `regra/19`, seção 5 |
-| **as treze condições**, com o efeito de cada uma e o nível de cada uma | `regra/19`, seção 3, e `manual/` |
+| **as treze condições**, com o efeito de cada uma e o nível de cada uma | `regra/19`, seção 3, e o capítulo 3 do livro |
 | **os catorze tipos de dano**, em três grupos | `regra/19`, seção 4 |
 | **quanto vale uma condição**, em dano por rodada e em fatia | `regra/19`, seção 2 |
 | criação de personagem, em oito passos, com ficha de exemplo | `regra/08` |
 | Origens, Legados, descanso, XP, aptidões, equipamento, invocações, ferramenta | `regra/09` a `regra/16` |
 | **dano e condições** — a régua, as treze condições, os tipos de dano e a cobertura | `regra/19` |
-| técnica, feitiço, Melhoria, Restrição, Expansão de Domínio | `manual/` |
-| vida e dano de chefe e capanga por nível | `manual/`, tabela de inimigo |
+| técnica, feitiço, Melhoria, Restrição, Expansão de Domínio | os capítulos 10, 11 e 14 do livro |
+| vida e dano de chefe e capanga por nível | `regra/26`, a tabela de inimigo |
 | **o que você ganha em cada nível, do 1 ao 30** — XP, maestria, espaços de feitiço, refino, Classe, Passiva, Classe 0 e os eventos | `regra/18`, numa tabela só |
 | **quanto refino você tem em cada marco** — as três rotas, do nv6 ao nv30 | `desenho/arquitetura.md`, seção 4.3 |
 | **`Bloquear`** — rolar `2d10` no lugar da Defesa parada, e ele vale em toda mesa | `regra/23` |
@@ -179,7 +182,7 @@ Nenhuma delas é opinião — todas foram medidas. *Eram seis até a v0.87; trê
 | ~~**Régua de PREÇO de condição**~~ | **existe desde a v0.103: é a `regra/19`, seção 2.** *Cada uma das treze tem valor em dano por rodada e nível — `Leve`, `Média` ou `Pesada` —, e tirar uma custa `1` ponto de energia por nível.* **A força continua sendo previsão até alguém jogar** |
 | ~~Tabela de progressão consolidada~~ | **existe desde a v0.99: é a `regra/18`.** *Uma tabela, do nível 1 ao 30* |
 | **Playtest** | zero sessões. **Todo número deste sistema é previsão** |
-| ~~Nome do sistema~~ | **`Projeto - M`, batizado na v0.94** |
+| ~~Nome do sistema~~ | **`Ciclo Maldito`, desde a v0.334**; era `Projeto - M`, batizado na v0.94 |
 
 ## As réguas que valem, se você precisar conferir alguma conta
 
