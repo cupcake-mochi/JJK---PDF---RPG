@@ -2,7 +2,7 @@
 
 Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Recorte da v0.359.** O livro é o **Ciclo Maldito**, na edição R44, em **21 capítulos** e 373 páginas.
+**Recorte da v0.360.** O livro é o **Ciclo Maldito**, na edição R46, em **21 capítulos** e 388 páginas.
 
 > ## Este repositório é ARTEFATO, e não fonte
 >
@@ -36,7 +36,7 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 >
 > **Os dois vieram porque a entrega apontava para eles e não os carregava.** *Até a v0.97 eram 19 ponteiros pendurados; agora a checagem 7 do `conferir-repositorio.py` acusa se voltar a acontecer.* **Hoje sobrou um: o `arquitetura.md`.**
 
-> **O livro é a edição atual.** Evocador, Incursor e Invocações estão nele, com a revisão de regras de outubro de 2026. Os textos de `caminhos/`, `invocacoes/` e `desenho/` e os preços antigos da `regra/17` são registros de antes dele e não substituem o que o livro diz. As peças de `regra/` acompanham o livro, com duas exceções que esperam revisão: a vida a zero e as Origens.
+> **O livro é a edição atual.** Evocador, Incursor e Invocações estão nele, com a revisão de regras de outubro de 2026. Os textos de `caminhos/`, `invocacoes/` e `desenho/` e os preços antigos da `regra/17` são registros de antes dele e não substituem o que o livro diz. As peças de `regra/` acompanham o livro, com duas exceções: a vida a zero, que espera revisão, e as Origens, que foram refeitas direto no livro na edição R45. A `regra/09` e a `regra/13` guardam o desenho anterior de Origens e Legados, com o resumo do modelo novo no topo da `regra/09`; para montar ficha, vale o capítulo 5 do livro.
 
 ## Histórico do planejamento e das réguas antigas
 
