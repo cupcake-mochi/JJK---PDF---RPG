@@ -2,7 +2,7 @@
 
 Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Recorte da v0.361.** O livro é o **Ciclo Maldito**, na edição R47, em **21 capítulos** e 388 páginas.
+**Recorte da v0.362.** O livro é o **Ciclo Maldito**, na edição R49, em **21 capítulos** e 397 páginas.
 
 > ## Este repositório é ARTEFATO, e não fonte
 >
