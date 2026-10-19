@@ -2,7 +2,12 @@
 
 Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Recorte da v0.365.** O livro é o **Ciclo Maldito**, na edição R52, em **21 capítulos** e 397 páginas.
+**Livro atual: Ciclo Maldito R53**, em **21 capítulos e 411 páginas**, com versões clara e noturna vinho e pêssego. Os demais materiais conservam a base histórica do recorte v0.365.
+
+- [Ler a versão clara](https://ciclo-maldito.vercel.app/livro/Ciclo-Maldito-Livro-de-Regras.pdf).
+- [Ler a versão noturna](https://ciclo-maldito.vercel.app/noturno).
+
+Os dois arquivos são publicados pela Vercel a partir da branch `main` deste repositório. A edição e os hashes ficam em `livro/EDICAO-ATUAL.json`.
 
 > ## Este repositório é ARTEFATO, e não fonte
 >
@@ -24,7 +29,7 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 | `caminhos/` | **a edição integrada v0.331** — seis Caminhos e dezoito Trilhas, de onde o capítulo 6 do livro partiu. **O texto atual é o do livro:** a revisão de regras de outubro de 2026 mudou habilidades depois dela (no Incursor, o novo alvo do `Redirecionar a Força` deixou de poder Bloquear). A coleção v0.4 permanece como histórico |
 | `invocacoes/` | o capítulo de Invocações da v0.331, de onde os capítulos 16 e 17 do livro partiram. O texto atual é o do livro |
 | `ficha/` | a ficha em branco e uma ficha de exemplo preenchida, nível 2 |
-| `livro/` | **o Ciclo Maldito, o livro de regras final**, em `livro/Ciclo-Maldito-Livro-de-Regras.pdf`, com **21 capítulos**. Ele trocou o Manual da Guilda nesta entrega na v0.358. **Onde outro arquivo daqui disser diferente, vale o livro.** *A paginação está na linha do recorte, lá em cima, e só lá* |
+| `livro/` | **o Ciclo Maldito, o livro de regras final**, em `livro/Ciclo-Maldito-Livro-de-Regras.pdf` e `livro/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf`, com **21 capítulos**. Ele trocou o Manual da Guilda nesta entrega na v0.358. **Onde outro arquivo daqui disser diferente, vale o livro.** *A paginação está na linha do recorte, lá em cima, e só lá* |
 
 > ## Um arquivo de `desenho/` não é desenho, e ele entrou na v0.98
 >
@@ -36,7 +41,7 @@ Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guild
 >
 > **Os dois vieram porque a entrega apontava para eles e não os carregava.** *Até a v0.97 eram 19 ponteiros pendurados; agora a checagem 7 do `conferir-repositorio.py` acusa se voltar a acontecer.* **Hoje sobrou um: o `arquitetura.md`.**
 
-> **O livro é a edição atual.** Evocador, Incursor e Invocações estão nele, com a revisão de regras de outubro de 2026. Os textos de `caminhos/`, `invocacoes/` e `desenho/` e os preços antigos da `regra/17` são registros de antes dele e não substituem o que o livro diz. As peças de `regra/` acompanham o livro, com uma exceção: as Origens, que foram refeitas direto no livro na edição R45. A vida a zero, refeita na edição R50 com o nome de Morrendo, está na `regra/01`. A `regra/09` e a `regra/13` guardam o desenho anterior de Origens e Legados, com o resumo do modelo novo no topo da `regra/09`; para montar ficha, vale o capítulo 5 do livro.
+> **O livro é a edição atual.** Evocador, Incursor e Invocações estão nele, com a revisão de regras de outubro de 2026. Os textos de `caminhos/`, `invocacoes/` e `desenho/` e os preços antigos da `regra/17` são registros de antes dele e não substituem o que o livro diz. O Fundamento da R53, suas rotas e as interfaces com Invocações foram integrados diretamente ao livro. As peças de `regra/` conservam textos anteriores; consulte os capítulos atuais para essas regras. As Origens foram refeitas direto no livro na edição R45. A vida a zero, refeita na edição R50 com o nome de Morrendo, está na `regra/01`. A `regra/09` e a `regra/13` guardam o desenho anterior de Origens e Legados, com o resumo do modelo novo no topo da `regra/09`; para montar ficha, vale o capítulo 5 do livro.
 
 ## Histórico do planejamento e das réguas antigas
 

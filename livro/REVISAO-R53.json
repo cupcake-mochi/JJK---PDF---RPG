@@ -1,0 +1,24 @@
+{
+  "revisao": "R53",
+  "revisado_em": "2026-10-19T02:17:46.521499+00:00",
+  "paginas": 411,
+  "resultado": "aprovado",
+  "sha256_claro": "a69455a9ca0451983c524362f2765d5753ddfb56b1b52a161d8a444dda4eeece",
+  "sha256_noturno": "5d9ab8468c25741b5de2b29ec8864decf917138f1b5a25e2a89a7500c002c35a",
+  "conferencias": {
+    "geral": {
+      "verificacoes": 121471,
+      "links": 2711,
+      "marcadores": 205,
+      "problemas": 0
+    },
+    "integracao_r53": 246,
+    "interfaces_de_invocacoes_e_rotas": 38,
+    "noturno": 1694
+  },
+  "texto": "Varredura de termos e remissões, conferência das regras integradas, releitura dos blocos dependentes e exemplos. Sem Técnica, Técnica Marcial, Invocações em campo e Construir invocações incluídos.",
+  "correcao_nesta_rodada": "Orientação do Vigia de papel: Firmeza por categoria perícia e prazo até o começo do próximo turno de Bruna.",
+  "defeitos_visuais_abertos": [],
+  "limites": "A revisão editorial e as contas não substituem avaliação de compreensão dos leitores ou teste de equilíbrio em mesa.",
+  "visual": "Todas as 411 páginas inspecionadas em pranchas; páginas de montagem, rotas e entidades também ampliadas. Revisão após a última correção."
+}

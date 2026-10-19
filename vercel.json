@@ -1,0 +1,26 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/livro/Ciclo-Maldito-Livro-de-Regras.pdf",
+      "permanent": false
+    },
+    {
+      "source": "/noturno",
+      "destination": "/livro/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf",
+      "permanent": false
+    }
+  ],
+  "headers": [
+    {
+      "source": "/livro/:arquivo*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
+  ]
+}
