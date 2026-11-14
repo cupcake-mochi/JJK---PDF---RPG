@@ -2,7 +2,7 @@
 
 Material de mesa de um sistema de RPG de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Livro atual: Ciclo Maldito R67**, em **21 capítulos e 422 páginas**, com versões clara e noturna vinho e pêssego. **Recorte da v0.378.** As peças de apoio conservam a integração da R53; o texto corrente e os validadores locais acompanham a R67, em que a Técnica Máxima paga a Forma e a base da função nos dados.
+**Livro atual: Ciclo Maldito R68**, em **21 capítulos e 422 páginas**, com versões clara e noturna vinho e pêssego. **Recorte da v0.379.** As peças de apoio conservam a integração da R53; o texto corrente e os validadores locais acompanham a R68, em que a Técnica Máxima paga a Forma e a base da função nos dados e a Máxima sem dano recebe o reforço de Controle.
 
 - [Ler a versão clara](https://ciclo-maldito.vercel.app/livro/Ciclo-Maldito-Livro-de-Regras.pdf).
 - [Ler a versão noturna](https://ciclo-maldito.vercel.app/noturno).
